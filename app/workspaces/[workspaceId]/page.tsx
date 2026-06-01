@@ -26,12 +26,16 @@ export default async function WorkspacePage({ params }: { params: Promise<{ work
     return acc;
   }, {});
 
+  const total = items?.length || 0;
+  const validated = (items || []).filter((item: any) => item.status === 'Validated').length;
+
   return (
     <main className="container">
       <div className="header">
         <div>
           <h1>{workspace?.name}</h1>
-          <p className="small">Supplier-friendly checklist: Our need → Supplier response → Attachments → Approval.</p>
+          <p className="small">One line = Our need → Supplier answer → Final decision → Status.</p>
+          <p className="small"><b>{validated}</b> / <b>{total}</b> validated</p>
         </div>
         <SignOutButton />
       </div>
@@ -39,14 +43,15 @@ export default async function WorkspacePage({ params }: { params: Promise<{ work
       {Object.entries(grouped).map(([category, reqs]: any) => (
         <section className="card" key={category} style={{ marginBottom: 18 }}>
           <h2>{category}</h2>
-          <table className="table">
-            <thead><tr><th>Requirement</th><th>Our need</th><th>Supplier response</th><th>Status</th></tr></thead>
+          <table className="table compact-table">
+            <thead><tr><th>Line</th><th>Our need</th><th>Supplier answer</th><th>Final decision</th><th>Status</th></tr></thead>
             <tbody>
               {reqs.map((item: any) => (
                 <tr key={item.id}>
-                  <td><a href={`/requirements/${item.id}`}><b>{item.title}</b></a><div className="small">{item.expected_document || 'No mandatory document'}</div></td>
+                  <td><a href={`/requirements/${item.id}`}><b>{item.title}</b></a></td>
                   <td>{item.our_need}</td>
-                  <td>{item.supplier_response || <span className="small">Waiting supplier response</span>}</td>
+                  <td>{item.supplier_response || <span className="small">Waiting supplier answer</span>}</td>
+                  <td>{item.final_decision || <span className="small">No final decision yet</span>}</td>
                   <td><span className="badge">{item.status}</span></td>
                 </tr>
               ))}

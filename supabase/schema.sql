@@ -1,7 +1,7 @@
 create extension if not exists "uuid-ossp";
 
 create type user_role as enum ('admin','internal','supplier');
-create type requirement_status as enum ('Draft','Waiting Supplier','Supplier Replied','Internal Review','Need Clarification','Approved','Rejected','Blocked');
+create type requirement_status as enum ('Waiting Supplier','Supplier Answered','Discussion','Validated');
 
 create table profiles (
   id uuid primary key references auth.users(id) on delete cascade,
@@ -39,6 +39,7 @@ create table requirements (
   title text not null,
   our_need text not null,
   supplier_response text,
+  final_decision text,
   internal_notes text,
   expected_document text,
   status requirement_status not null default 'Waiting Supplier',
