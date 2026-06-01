@@ -1,0 +1,1285 @@
+id,workspace_slug,category,title,our_need,example_response,expected_document,status
+99f32457-fa94-4d1a-b91a-d22dac1942c3,jondo,Company Overview,Key contacts and escalation matrix,"What we need
+Please provide the full contact list and escalation matrix for daily operations and emergencies, including names, roles, email, phone/WhatsApp if available, working hours, backup contacts and escalation level.
+
+Why this matters
+We support customers 24/7 and need to know exactly who to contact depending on the topic, urgency, time of day, weekend or holiday.
+
+Example / expected format
+Operations: Name / email / hours
+Logistics: Name / email / hours
+Emergency escalation: Level 1 contact, Level 2 contact, expected response time","Operations: Name / email / hours
+Logistics: Name / email / hours
+Emergency escalation: Level 1 contact, Level 2 contact, expected response time",Attach supporting document or sample if available.,Waiting Supplier
+031855cd-3b78-4e50-861f-c56638bd460b,shineon,Company Overview,Key contacts and escalation matrix,"What we need
+Please provide the full contact list and escalation matrix for daily operations and emergencies, including names, roles, email, phone/WhatsApp if available, working hours, backup contacts and escalation level.
+
+Why this matters
+We support customers 24/7 and need to know exactly who to contact depending on the topic, urgency, time of day, weekend or holiday.
+
+Example / expected format
+Operations: Name / email / hours
+Logistics: Name / email / hours
+Emergency escalation: Level 1 contact, Level 2 contact, expected response time","Operations: Name / email / hours
+Logistics: Name / email / hours
+Emergency escalation: Level 1 contact, Level 2 contact, expected response time",Attach supporting document or sample if available.,Waiting Supplier
+7a0f900e-8f8e-4546-a4ea-1d306d6eeb30,jondo,Company Overview,"Business hours, weekends and holidays","What we need
+Please confirm your business hours, time zone, weekend coverage, holiday coverage and any days where production, shipping or support is closed.
+
+Why this matters
+Customer communication and delivery promises depend on knowing when your teams can act on production, shipping and urgent requests.
+
+Example / expected format
+Time zone: EST
+Monday-Friday: 09:00-18:00
+Saturday coverage: yes/no
+Emergency weekend coverage: yes/no
+Holiday calendar attached","Time zone: EST
+Monday-Friday: 09:00-18:00
+Saturday coverage: yes/no
+Emergency weekend coverage: yes/no
+Holiday calendar attached",Attach supporting document or sample if available.,Waiting Supplier
+d81e7efc-1583-4f4b-bb72-9988d8daf90a,shineon,Company Overview,"Business hours, weekends and holidays","What we need
+Please confirm your business hours, time zone, weekend coverage, holiday coverage and any days where production, shipping or support is closed.
+
+Why this matters
+Customer communication and delivery promises depend on knowing when your teams can act on production, shipping and urgent requests.
+
+Example / expected format
+Time zone: EST
+Monday-Friday: 09:00-18:00
+Saturday coverage: yes/no
+Emergency weekend coverage: yes/no
+Holiday calendar attached","Time zone: EST
+Monday-Friday: 09:00-18:00
+Saturday coverage: yes/no
+Emergency weekend coverage: yes/no
+Holiday calendar attached",Attach supporting document or sample if available.,Waiting Supplier
+67a779c9-eb20-4942-8a3e-0ff702b1826c,jondo,Company Overview,Emergency communication process,"What we need
+Please explain the process for urgent production, shipping, tracking or technical incidents: channel, owner, backup contact, response time and escalation steps.
+
+Why this matters
+Urgent issues must be handled quickly to avoid missed delivery promises and customer dissatisfaction.
+
+Example / expected format
+Urgent issue reported by email/Slack → Level 1 responds within 1 hour → Level 2 escalation after 2 hours → daily follow-up until solved",Urgent issue reported by email/Slack → Level 1 responds within 1 hour → Level 2 escalation after 2 hours → daily follow-up until solved,Attach supporting document or sample if available.,Waiting Supplier
+3c4e5b1a-676d-42b0-85e6-fc9876d1f6a5,shineon,Company Overview,Emergency communication process,"What we need
+Please explain the process for urgent production, shipping, tracking or technical incidents: channel, owner, backup contact, response time and escalation steps.
+
+Why this matters
+Urgent issues must be handled quickly to avoid missed delivery promises and customer dissatisfaction.
+
+Example / expected format
+Urgent issue reported by email/Slack → Level 1 responds within 1 hour → Level 2 escalation after 2 hours → daily follow-up until solved",Urgent issue reported by email/Slack → Level 1 responds within 1 hour → Level 2 escalation after 2 hours → daily follow-up until solved,Attach supporting document or sample if available.,Waiting Supplier
+48cca6e3-b737-4b2f-87b2-ee2479fbd5c0,jondo,Products & Quality Assurance,Quality control process and quality commitment,"What we need
+Please describe your quality control process before shipment and confirm your commitment to quality standards for all products proposed to us. Include checkpoints, sampling rules, rejection process and corrective actions.
+
+Why this matters
+Product quality impacts customer satisfaction, refunds, reorders, compensation and brand reputation.
+
+Example / expected format
+Artwork validation → production check → final QC → packaging check → shipment release. Failed items are blocked and remade before shipping.",Artwork validation → production check → final QC → packaging check → shipment release. Failed items are blocked and remade before shipping.,Attach supporting document or sample if available.,Waiting Supplier
+e6ab3c94-4522-4ea9-9222-7754fa6db5a3,shineon,Products & Quality Assurance,Quality control process and quality commitment,"What we need
+Please describe your quality control process before shipment and confirm your commitment to quality standards for all products proposed to us. Include checkpoints, sampling rules, rejection process and corrective actions.
+
+Why this matters
+Product quality impacts customer satisfaction, refunds, reorders, compensation and brand reputation.
+
+Example / expected format
+Artwork validation → production check → final QC → packaging check → shipment release. Failed items are blocked and remade before shipping.",Artwork validation → production check → final QC → packaging check → shipment release. Failed items are blocked and remade before shipping.,Attach supporting document or sample if available.,Waiting Supplier
+db7b8ad7-9932-43e6-b6cf-73f7a4058940,jondo,Products & Quality Assurance,Damaged/defect rate KPI and review threshold,"What we need
+Please provide the damaged/defect rate KPI you track, how it is calculated, reporting frequency and the threshold that triggers review and corrective action.
+
+Why this matters
+If defect or damage rates exceed the agreed threshold, we need root cause analysis, corrective action and compensation discussion.
+
+Example / expected format
+Monthly defect rate = defective units / shipped units. Threshold: 2%. If above threshold: RCA within 5 business days + corrective action plan.",Monthly defect rate = defective units / shipped units. Threshold: 2%. If above threshold: RCA within 5 business days + corrective action plan.,Attach supporting document or sample if available.,Waiting Supplier
+b3b88ff0-9438-407e-9b78-3b668dfd0d23,shineon,Products & Quality Assurance,Damaged/defect rate KPI and review threshold,"What we need
+Please provide the damaged/defect rate KPI you track, how it is calculated, reporting frequency and the threshold that triggers review and corrective action.
+
+Why this matters
+If defect or damage rates exceed the agreed threshold, we need root cause analysis, corrective action and compensation discussion.
+
+Example / expected format
+Monthly defect rate = defective units / shipped units. Threshold: 2%. If above threshold: RCA within 5 business days + corrective action plan.",Monthly defect rate = defective units / shipped units. Threshold: 2%. If above threshold: RCA within 5 business days + corrective action plan.,Attach supporting document or sample if available.,Waiting Supplier
+247ca242-188e-4db9-bdfb-8c417e827cd4,jondo,Products & Quality Assurance,Personalization options,"What we need
+Please list every personalization option available and the related limitations: text, name, photo, engraving, artwork, language, character limits, preview validation and error prevention.
+
+Why this matters
+Personalized orders are high-risk because mistakes cannot always be corrected after production starts.
+
+Example / expected format
+Product A: engraving, 20 characters max, English only. Product B: photo upload, JPG/PNG, minimum resolution 1000x1000.","Product A: engraving, 20 characters max, English only. Product B: photo upload, JPG/PNG, minimum resolution 1000x1000.",Attach supporting document or sample if available.,Waiting Supplier
+f5c34312-2678-4969-b27b-084484b1620f,shineon,Products & Quality Assurance,Personalization options,"What we need
+Please list every personalization option available and the related limitations: text, name, photo, engraving, artwork, language, character limits, preview validation and error prevention.
+
+Why this matters
+Personalized orders are high-risk because mistakes cannot always be corrected after production starts.
+
+Example / expected format
+Product A: engraving, 20 characters max, English only. Product B: photo upload, JPG/PNG, minimum resolution 1000x1000.","Product A: engraving, 20 characters max, English only. Product B: photo upload, JPG/PNG, minimum resolution 1000x1000.",Attach supporting document or sample if available.,Waiting Supplier
+2c594ab1-5009-46cc-8dec-96123efc1631,jondo,Products & Quality Assurance,"Branded gift box, gift card and insert options","What we need
+Please confirm available gift box, gift card, branded insert and company-branded packaging options. Include price, process, MOQ, lead time and required assets.
+
+Why this matters
+Packaging and gifting options are important for customer experience and brand consistency.
+
+Example / expected format
+Gift box: $X per unit, MOQ 500, 15-day setup. Gift card: PDF template required, printed in black/white or color.","Gift box: $X per unit, MOQ 500, 15-day setup. Gift card: PDF template required, printed in black/white or color.",Attach supporting document or sample if available.,Waiting Supplier
+52a46a35-72a9-44f7-b9f5-7db01e1d535a,shineon,Products & Quality Assurance,"Branded gift box, gift card and insert options","What we need
+Please confirm available gift box, gift card, branded insert and company-branded packaging options. Include price, process, MOQ, lead time and required assets.
+
+Why this matters
+Packaging and gifting options are important for customer experience and brand consistency.
+
+Example / expected format
+Gift box: $X per unit, MOQ 500, 15-day setup. Gift card: PDF template required, printed in black/white or color.","Gift box: $X per unit, MOQ 500, 15-day setup. Gift card: PDF template required, printed in black/white or color.",Attach supporting document or sample if available.,Waiting Supplier
+a7c81c96-7820-4923-88f3-1917967bfb70,jondo,Catalog Feed & Product Data,Product feed format and sample file,"What we need
+Please provide the product feed format, a sample file, update frequency, owner and process for correcting feed errors.
+
+Why this matters
+Accurate product data is required for integration, product launch and ongoing maintenance.
+
+Example / expected format
+CSV or XML feed sent daily at 06:00 UTC. Sample includes SKU, title, variants, images, price, production time and availability.","CSV or XML feed sent daily at 06:00 UTC. Sample includes SKU, title, variants, images, price, production time and availability.",Attach supporting document or sample if available.,Waiting Supplier
+e0f58878-3e26-4b9c-90fc-41dd65b6e955,shineon,Catalog Feed & Product Data,Product feed format and sample file,"What we need
+Please provide the product feed format, a sample file, update frequency, owner and process for correcting feed errors.
+
+Why this matters
+Accurate product data is required for integration, product launch and ongoing maintenance.
+
+Example / expected format
+CSV or XML feed sent daily at 06:00 UTC. Sample includes SKU, title, variants, images, price, production time and availability.","CSV or XML feed sent daily at 06:00 UTC. Sample includes SKU, title, variants, images, price, production time and availability.",Attach supporting document or sample if available.,Waiting Supplier
+f440c16f-a3cd-42ec-99e2-866329d4108f,jondo,Catalog Feed & Product Data,Mandatory product attributes,"What we need
+Please provide the full list of mandatory product attributes required for each SKU and variant.
+
+Why this matters
+Missing attributes create integration issues, incorrect product pages and operational errors.
+
+Example / expected format
+Required fields: SKU, product title, variant title, dimensions, weight, materials, personalization fields, production time, images, shipping restrictions.","Required fields: SKU, product title, variant title, dimensions, weight, materials, personalization fields, production time, images, shipping restrictions.",Attach supporting document or sample if available.,Waiting Supplier
+6c5bc2a7-e1e0-48f2-bbeb-f654d3e2f3fb,shineon,Catalog Feed & Product Data,Mandatory product attributes,"What we need
+Please provide the full list of mandatory product attributes required for each SKU and variant.
+
+Why this matters
+Missing attributes create integration issues, incorrect product pages and operational errors.
+
+Example / expected format
+Required fields: SKU, product title, variant title, dimensions, weight, materials, personalization fields, production time, images, shipping restrictions.","Required fields: SKU, product title, variant title, dimensions, weight, materials, personalization fields, production time, images, shipping restrictions.",Attach supporting document or sample if available.,Waiting Supplier
+286df9a4-dd7a-42a1-aea4-d8c4c56b502d,jondo,Catalog Feed & Product Data,Image and media specifications,"What we need
+Please provide image and media specifications: format, size, naming convention, lifestyle images, mockups, thumbnails and restrictions by product type.
+
+Why this matters
+Consistent media rules are required for product pages, catalog integration and customer experience.
+
+Example / expected format
+Main image: JPG/PNG, 2000x2000, white background. Lifestyle images: optional. File naming: SKU_variant_angle.jpg.","Main image: JPG/PNG, 2000x2000, white background. Lifestyle images: optional. File naming: SKU_variant_angle.jpg.",Attach supporting document or sample if available.,Waiting Supplier
+761ab40c-a8b0-4df3-9152-50c7e164b7b9,shineon,Catalog Feed & Product Data,Image and media specifications,"What we need
+Please provide image and media specifications: format, size, naming convention, lifestyle images, mockups, thumbnails and restrictions by product type.
+
+Why this matters
+Consistent media rules are required for product pages, catalog integration and customer experience.
+
+Example / expected format
+Main image: JPG/PNG, 2000x2000, white background. Lifestyle images: optional. File naming: SKU_variant_angle.jpg.","Main image: JPG/PNG, 2000x2000, white background. Lifestyle images: optional. File naming: SKU_variant_angle.jpg.",Attach supporting document or sample if available.,Waiting Supplier
+8c2360bd-1de6-4ea6-8d8f-ce7a37f43613,jondo,Pricing & Commercial Terms,Wholesale price list,"What we need
+Please provide the complete wholesale price list including product cost, personalization cost, packaging cost, shipping cost and any additional operational fees.
+
+Why this matters
+Transparent pricing is required to validate margins, customer pricing and finance reconciliation.
+
+Example / expected format
+SKU | Product cost | Personalization cost | Gift box cost | Standard shipping | Express shipping | Currency",SKU | Product cost | Personalization cost | Gift box cost | Standard shipping | Express shipping | Currency,Attach supporting document or sample if available.,Waiting Supplier
+ab14c1cb-2985-46f3-bc9d-c4a82d48b40e,shineon,Pricing & Commercial Terms,Wholesale price list,"What we need
+Please provide the complete wholesale price list including product cost, personalization cost, packaging cost, shipping cost and any additional operational fees.
+
+Why this matters
+Transparent pricing is required to validate margins, customer pricing and finance reconciliation.
+
+Example / expected format
+SKU | Product cost | Personalization cost | Gift box cost | Standard shipping | Express shipping | Currency",SKU | Product cost | Personalization cost | Gift box cost | Standard shipping | Express shipping | Currency,Attach supporting document or sample if available.,Waiting Supplier
+1d4c47c6-e50c-4a6e-9bd6-e270d63fc306,jondo,Pricing & Commercial Terms,Discount and volume structure,"What we need
+Please provide volume discount tiers, discount rules and any specific commercial agreement that may apply.
+
+Why this matters
+We need to understand how pricing evolves with volume and how discounts are applied in invoices.
+
+Example / expected format
+0-500 orders: $X
+501-1000 orders: $Y
+1000+ orders: $Z
+Discount reviewed monthly/quarterly","0-500 orders: $X
+501-1000 orders: $Y
+1000+ orders: $Z
+Discount reviewed monthly/quarterly",Attach supporting document or sample if available.,Waiting Supplier
+6651b1e8-0044-449a-8f43-10e64fbe9015,shineon,Pricing & Commercial Terms,Discount and volume structure,"What we need
+Please provide volume discount tiers, discount rules and any specific commercial agreement that may apply.
+
+Why this matters
+We need to understand how pricing evolves with volume and how discounts are applied in invoices.
+
+Example / expected format
+0-500 orders: $X
+501-1000 orders: $Y
+1000+ orders: $Z
+Discount reviewed monthly/quarterly","0-500 orders: $X
+501-1000 orders: $Y
+1000+ orders: $Z
+Discount reviewed monthly/quarterly",Attach supporting document or sample if available.,Waiting Supplier
+01ae870f-48ab-4173-978c-dcfc644feeb6,jondo,Pricing & Commercial Terms,Price change notification process,"What we need
+Please explain your price change process: notice period, approval flow, effective date and how existing orders are handled.
+
+Why this matters
+Uncontrolled price changes create margin and invoice issues.
+
+Example / expected format
+Supplier sends notice 30 days before change → Tenengroup approval → effective date confirmed → existing orders keep previous price.",Supplier sends notice 30 days before change → Tenengroup approval → effective date confirmed → existing orders keep previous price.,Attach supporting document or sample if available.,Waiting Supplier
+b338f8c4-cc42-4823-a0c1-e270173e082b,shineon,Pricing & Commercial Terms,Price change notification process,"What we need
+Please explain your price change process: notice period, approval flow, effective date and how existing orders are handled.
+
+Why this matters
+Uncontrolled price changes create margin and invoice issues.
+
+Example / expected format
+Supplier sends notice 30 days before change → Tenengroup approval → effective date confirmed → existing orders keep previous price.",Supplier sends notice 30 days before change → Tenengroup approval → effective date confirmed → existing orders keep previous price.,Attach supporting document or sample if available.,Waiting Supplier
+1b05f18e-8a20-4c20-944a-92cad30394f2,jondo,Branding & White Label Capabilities,Neutral and branded packaging options,"What we need
+Please describe all neutral, branded and white-label packaging options and any limitation.
+
+Why this matters
+The customer should experience our brand, not the supplier brand, unless explicitly approved.
+
+Example / expected format
+Neutral mailer with no supplier logo. Optional branded box available with MOQ and setup cost.",Neutral mailer with no supplier logo. Optional branded box available with MOQ and setup cost.,Attach supporting document or sample if available.,Waiting Supplier
+c98e547c-d41b-4146-8866-94ffcf733389,shineon,Branding & White Label Capabilities,Neutral and branded packaging options,"What we need
+Please describe all neutral, branded and white-label packaging options and any limitation.
+
+Why this matters
+The customer should experience our brand, not the supplier brand, unless explicitly approved.
+
+Example / expected format
+Neutral mailer with no supplier logo. Optional branded box available with MOQ and setup cost.",Neutral mailer with no supplier logo. Optional branded box available with MOQ and setup cost.,Attach supporting document or sample if available.,Waiting Supplier
+23193060-e22e-471f-9541-51c0fec59eb2,jondo,Branding & White Label Capabilities,Packing slip and insert rules,"What we need
+Please explain packing slip, gift card, marketing insert and package insert rules. Confirm what can be customized and what must be supplied by us.
+
+Why this matters
+Incorrect inserts or supplier branding can damage customer experience and brand consistency.
+
+Example / expected format
+Packing slip: no price, no supplier logo. Insert: Tenengroup provides artwork PDF, supplier prints and inserts.","Packing slip: no price, no supplier logo. Insert: Tenengroup provides artwork PDF, supplier prints and inserts.",Attach supporting document or sample if available.,Waiting Supplier
+1d2456d6-dc73-410b-a6b0-d0d458338d26,shineon,Branding & White Label Capabilities,Packing slip and insert rules,"What we need
+Please explain packing slip, gift card, marketing insert and package insert rules. Confirm what can be customized and what must be supplied by us.
+
+Why this matters
+Incorrect inserts or supplier branding can damage customer experience and brand consistency.
+
+Example / expected format
+Packing slip: no price, no supplier logo. Insert: Tenengroup provides artwork PDF, supplier prints and inserts.","Packing slip: no price, no supplier logo. Insert: Tenengroup provides artwork PDF, supplier prints and inserts.",Attach supporting document or sample if available.,Waiting Supplier
+b2618c8e-558a-4049-9ed8-0e609cc0d16f,jondo,Branding & White Label Capabilities,Branding restrictions,"What we need
+Please list any branding restrictions, required supplier branding, marketplace limitations, legal restrictions or claims that cannot be used.
+
+Why this matters
+We need to avoid brand, legal or compliance issues before launch.
+
+Example / expected format
+Supplier logo appears: yes/no. Restricted words: warranty, hypoallergenic, handmade. Country restrictions: X/Y/Z.","Supplier logo appears: yes/no. Restricted words: warranty, hypoallergenic, handmade. Country restrictions: X/Y/Z.",Attach supporting document or sample if available.,Waiting Supplier
+117ab9b8-f6af-44a4-a851-12a5724f0ad9,shineon,Branding & White Label Capabilities,Branding restrictions,"What we need
+Please list any branding restrictions, required supplier branding, marketplace limitations, legal restrictions or claims that cannot be used.
+
+Why this matters
+We need to avoid brand, legal or compliance issues before launch.
+
+Example / expected format
+Supplier logo appears: yes/no. Restricted words: warranty, hypoallergenic, handmade. Country restrictions: X/Y/Z.","Supplier logo appears: yes/no. Restricted words: warranty, hypoallergenic, handmade. Country restrictions: X/Y/Z.",Attach supporting document or sample if available.,Waiting Supplier
+8bd94ea1-7bd2-4e6c-a8fa-5bdfec6b132e,jondo,Inventory Management,Inventory sync process,"What we need
+Please explain how inventory is synchronized, update frequency, data format, ownership and what happens if the sync fails.
+
+Why this matters
+Inventory visibility prevents overselling, cancellations and customer disappointment.
+
+Example / expected format
+Inventory feed updates every 2 hours. If feed fails, supplier notifies Tenengroup within 1 hour and blocks affected SKUs.","Inventory feed updates every 2 hours. If feed fails, supplier notifies Tenengroup within 1 hour and blocks affected SKUs.",Attach supporting document or sample if available.,Waiting Supplier
+07b54987-3fb3-4a7d-b43a-84ea2de3f686,shineon,Inventory Management,Inventory sync process,"What we need
+Please explain how inventory is synchronized, update frequency, data format, ownership and what happens if the sync fails.
+
+Why this matters
+Inventory visibility prevents overselling, cancellations and customer disappointment.
+
+Example / expected format
+Inventory feed updates every 2 hours. If feed fails, supplier notifies Tenengroup within 1 hour and blocks affected SKUs.","Inventory feed updates every 2 hours. If feed fails, supplier notifies Tenengroup within 1 hour and blocks affected SKUs.",Attach supporting document or sample if available.,Waiting Supplier
+20f274cf-b0c4-4ab9-a6bb-52c6dfdf2340,jondo,Inventory Management,Out-of-stock handling,"What we need
+Please explain the out-of-stock process: notification timing, order blocking, alternatives, substitution rules and customer protection.
+
+Why this matters
+We must avoid selling products that cannot be fulfilled.
+
+Example / expected format
+SKU out of stock → notify within 2 hours → product paused → affected orders listed → alternative SKU proposed if available.",SKU out of stock → notify within 2 hours → product paused → affected orders listed → alternative SKU proposed if available.,Attach supporting document or sample if available.,Waiting Supplier
+9969aeeb-27cb-4488-878b-dc84c4809bc2,shineon,Inventory Management,Out-of-stock handling,"What we need
+Please explain the out-of-stock process: notification timing, order blocking, alternatives, substitution rules and customer protection.
+
+Why this matters
+We must avoid selling products that cannot be fulfilled.
+
+Example / expected format
+SKU out of stock → notify within 2 hours → product paused → affected orders listed → alternative SKU proposed if available.",SKU out of stock → notify within 2 hours → product paused → affected orders listed → alternative SKU proposed if available.,Attach supporting document or sample if available.,Waiting Supplier
+8f55b2af-988b-4e73-80c4-4d2cd17fbf5f,jondo,Inventory Management,Safety stock rules,"What we need
+Please explain safety stock rules and how stock is protected during peak periods.
+
+Why this matters
+Peak periods require additional protection to avoid overselling and late orders.
+
+Example / expected format
+Minimum safety stock: 10% of forecast. Peak safety stock: 20%. Replenishment trigger: 7 days before stockout.",Minimum safety stock: 10% of forecast. Peak safety stock: 20%. Replenishment trigger: 7 days before stockout.,Attach supporting document or sample if available.,Waiting Supplier
+941764ec-5ac8-416f-9e6f-659a6b1e0432,shineon,Inventory Management,Safety stock rules,"What we need
+Please explain safety stock rules and how stock is protected during peak periods.
+
+Why this matters
+Peak periods require additional protection to avoid overselling and late orders.
+
+Example / expected format
+Minimum safety stock: 10% of forecast. Peak safety stock: 20%. Replenishment trigger: 7 days before stockout.",Minimum safety stock: 10% of forecast. Peak safety stock: 20%. Replenishment trigger: 7 days before stockout.,Attach supporting document or sample if available.,Waiting Supplier
+9890b2dc-edaf-4ea8-bf51-608d0000dab3,jondo,Fulfillment & Production Management,Production workflow,"What we need
+Please describe the full production workflow from order reception to shipment, including steps, checkpoints, responsibilities, cutoffs and exception handling.
+
+Why this matters
+This is critical to understand where delays may occur and how they are managed before they impact customers.
+
+Example / expected format
+Order received → personalization validation → production → quality control → packaging → shipping label → carrier handoff.",Order received → personalization validation → production → quality control → packaging → shipping label → carrier handoff.,Attach supporting document or sample if available.,Waiting Supplier
+4b492aba-f749-4b18-9a4a-f161f7cdb994,shineon,Fulfillment & Production Management,Production workflow,"What we need
+Please describe the full production workflow from order reception to shipment, including steps, checkpoints, responsibilities, cutoffs and exception handling.
+
+Why this matters
+This is critical to understand where delays may occur and how they are managed before they impact customers.
+
+Example / expected format
+Order received → personalization validation → production → quality control → packaging → shipping label → carrier handoff.",Order received → personalization validation → production → quality control → packaging → shipping label → carrier handoff.,Attach supporting document or sample if available.,Waiting Supplier
+c2869514-c6a3-4c0c-bde7-e9206645e826,jondo,Fulfillment & Production Management,Production SLA by order type,"What we need
+Please provide production SLA by order type: standard, personalized, peak season, reorders and urgent cases.
+
+Why this matters
+We need clear production commitments for customer communication and SLA monitoring.
+
+Example / expected format
+Standard: 2 business days. Personalized: 3 business days. Peak season: 4 business days. Reorder: 1-2 business days.",Standard: 2 business days. Personalized: 3 business days. Peak season: 4 business days. Reorder: 1-2 business days.,Attach supporting document or sample if available.,Waiting Supplier
+7c5713be-0f03-4eab-b0d1-0a7ddd5b682b,shineon,Fulfillment & Production Management,Production SLA by order type,"What we need
+Please provide production SLA by order type: standard, personalized, peak season, reorders and urgent cases.
+
+Why this matters
+We need clear production commitments for customer communication and SLA monitoring.
+
+Example / expected format
+Standard: 2 business days. Personalized: 3 business days. Peak season: 4 business days. Reorder: 1-2 business days.",Standard: 2 business days. Personalized: 3 business days. Peak season: 4 business days. Reorder: 1-2 business days.,Attach supporting document or sample if available.,Waiting Supplier
+08fcdf73-27f5-4658-8303-541332a6b08e,jondo,Fulfillment & Production Management,Daily late order report covering 100% of late orders,"What we need
+Please confirm how you will provide a daily report covering 100% of orders late against production SLA. The report must include order ID, delay reason, new deadline, shipping method and upgrade status.
+
+Why this matters
+A partial report is not useful. We need full visibility to manage customers and compensation.
+
+Example / expected format
+Order #12345 | SLA ship date: May 10 | New ship date: May 11 | Reason: material delay | Upgrade: Express",Order #12345 | SLA ship date: May 10 | New ship date: May 11 | Reason: material delay | Upgrade: Express,Attach supporting document or sample if available.,Waiting Supplier
+4c8cf1f1-3598-4121-9b91-dac578c73101,shineon,Fulfillment & Production Management,Daily late order report covering 100% of late orders,"What we need
+Please confirm how you will provide a daily report covering 100% of orders late against production SLA. The report must include order ID, delay reason, new deadline, shipping method and upgrade status.
+
+Why this matters
+A partial report is not useful. We need full visibility to manage customers and compensation.
+
+Example / expected format
+Order #12345 | SLA ship date: May 10 | New ship date: May 11 | Reason: material delay | Upgrade: Express",Order #12345 | SLA ship date: May 10 | New ship date: May 11 | Reason: material delay | Upgrade: Express,Attach supporting document or sample if available.,Waiting Supplier
+bf3e03c7-1b68-4fbb-a042-70dccb907370,jondo,Fulfillment & Production Management,Day 1 late supplier process,"What we need
+Please confirm the process when an order is 1 day late: flagging, reason, owner and plan to ship the next day.
+
+Why this matters
+Day 1 late orders must be identified immediately so we can manage customer communication.
+
+Example / expected format
+Tag: Late Supplier. Reason: QC issue. New ship date: D+1. Owner: Production manager.",Tag: Late Supplier. Reason: QC issue. New ship date: D+1. Owner: Production manager.,Attach supporting document or sample if available.,Waiting Supplier
+f5888e2f-f762-472a-81f2-8bf1f0a27b7e,shineon,Fulfillment & Production Management,Day 1 late supplier process,"What we need
+Please confirm the process when an order is 1 day late: flagging, reason, owner and plan to ship the next day.
+
+Why this matters
+Day 1 late orders must be identified immediately so we can manage customer communication.
+
+Example / expected format
+Tag: Late Supplier. Reason: QC issue. New ship date: D+1. Owner: Production manager.",Tag: Late Supplier. Reason: QC issue. New ship date: D+1. Owner: Production manager.,Attach supporting document or sample if available.,Waiting Supplier
+64315398-756c-412e-814d-b1d6ba4fcf19,jondo,Fulfillment & Production Management,Day 2+ late process with automatic shipping upgrade,"What we need
+Please confirm the process when an order is 2+ days late. We expect a detailed reason, new confirmed deadline and automatic shipping upgrade at supplier expense. If the order already uses the most expensive method, shipping fees should be refunded.
+
+Why this matters
+Longer production delays require immediate recovery action and compensation.
+
+Example / expected format
+Order late 2 days → root cause shared → new ship date confirmed → shipping upgraded to Express at supplier cost.",Order late 2 days → root cause shared → new ship date confirmed → shipping upgraded to Express at supplier cost.,Attach supporting document or sample if available.,Waiting Supplier
+43db24c5-ea39-4f94-91fa-cdb9ade13e31,shineon,Fulfillment & Production Management,Day 2+ late process with automatic shipping upgrade,"What we need
+Please confirm the process when an order is 2+ days late. We expect a detailed reason, new confirmed deadline and automatic shipping upgrade at supplier expense. If the order already uses the most expensive method, shipping fees should be refunded.
+
+Why this matters
+Longer production delays require immediate recovery action and compensation.
+
+Example / expected format
+Order late 2 days → root cause shared → new ship date confirmed → shipping upgraded to Express at supplier cost.",Order late 2 days → root cause shared → new ship date confirmed → shipping upgraded to Express at supplier cost.,Attach supporting document or sample if available.,Waiting Supplier
+70fc3152-cb07-41b2-afa6-b3aa2a92f67d,jondo,Fulfillment & Production Management,Peak season production capacity,"What we need
+Please provide your production capacity plan for peak periods: Valentine’s Day, Mother’s Day, Father’s Day, Christmas, Black Friday and Cyber Monday.
+
+Why this matters
+Peak periods create high volume and delivery-risk exposure. We need proof that capacity and escalation are ready.
+
+Example / expected format
+Normal capacity: 1,000/day. Peak capacity: 2,500/day. Extra shifts: yes. Temporary staff: yes. Peak command center: yes.","Normal capacity: 1,000/day. Peak capacity: 2,500/day. Extra shifts: yes. Temporary staff: yes. Peak command center: yes.",Attach supporting document or sample if available.,Waiting Supplier
+16714d9b-3565-42f1-b292-8f9c2dcb29ae,shineon,Fulfillment & Production Management,Peak season production capacity,"What we need
+Please provide your production capacity plan for peak periods: Valentine’s Day, Mother’s Day, Father’s Day, Christmas, Black Friday and Cyber Monday.
+
+Why this matters
+Peak periods create high volume and delivery-risk exposure. We need proof that capacity and escalation are ready.
+
+Example / expected format
+Normal capacity: 1,000/day. Peak capacity: 2,500/day. Extra shifts: yes. Temporary staff: yes. Peak command center: yes.","Normal capacity: 1,000/day. Peak capacity: 2,500/day. Extra shifts: yes. Temporary staff: yes. Peak command center: yes.",Attach supporting document or sample if available.,Waiting Supplier
+1ad3292e-f790-496d-a526-d27735315115,jondo,Shipping Management,Shipping method matrix by country and factory,"What we need
+Please provide a shipping method matrix by country, factory and speed, ordered from fastest to slowest with availability limits.
+
+Why this matters
+We need to choose the correct shipping promise and identify upgrade options.
+
+Example / expected format
+Country | Factory | Method | Carrier | Transit time | Available yes/no | Restrictions",Country | Factory | Method | Carrier | Transit time | Available yes/no | Restrictions,Attach supporting document or sample if available.,Waiting Supplier
+a868a1b6-b247-4307-9112-28e99fab6f4c,shineon,Shipping Management,Shipping method matrix by country and factory,"What we need
+Please provide a shipping method matrix by country, factory and speed, ordered from fastest to slowest with availability limits.
+
+Why this matters
+We need to choose the correct shipping promise and identify upgrade options.
+
+Example / expected format
+Country | Factory | Method | Carrier | Transit time | Available yes/no | Restrictions",Country | Factory | Method | Carrier | Transit time | Available yes/no | Restrictions,Attach supporting document or sample if available.,Waiting Supplier
+b12e7f61-d3f3-4b0c-8372-bab34cbf5440,jondo,Shipping Management,Shipping cost matrix,"What we need
+Please provide shipping costs by method, country, factory and surcharge rules.
+
+Why this matters
+Shipping cost must be transparent for pricing, upgrades and compensation.
+
+Example / expected format
+US Standard: $X, 5-7 days. US Express: $Y, 1-3 days. Remote area surcharge: $Z.","US Standard: $X, 5-7 days. US Express: $Y, 1-3 days. Remote area surcharge: $Z.",Attach supporting document or sample if available.,Waiting Supplier
+8c758320-337b-484e-9f8c-de44da3e051c,shineon,Shipping Management,Shipping cost matrix,"What we need
+Please provide shipping costs by method, country, factory and surcharge rules.
+
+Why this matters
+Shipping cost must be transparent for pricing, upgrades and compensation.
+
+Example / expected format
+US Standard: $X, 5-7 days. US Express: $Y, 1-3 days. Remote area surcharge: $Z.","US Standard: $X, 5-7 days. US Express: $Y, 1-3 days. Remote area surcharge: $Z.",Attach supporting document or sample if available.,Waiting Supplier
+12ae3eab-9a3f-4ce3-8f53-cd189f14c4a6,jondo,Shipping Management,Carrier list and restrictions,"What we need
+Please provide all carriers used, supported countries, factory availability and known restrictions.
+
+Why this matters
+Carrier restrictions affect ETA, delivery exceptions and customer communication.
+
+Example / expected format
+DHL: US/EU, no PO boxes. UPS: US only. Local carrier: Canada, no weekend delivery.","DHL: US/EU, no PO boxes. UPS: US only. Local carrier: Canada, no weekend delivery.",Attach supporting document or sample if available.,Waiting Supplier
+ea2cad4d-5ea6-4c4b-9eb0-903c9e9256d5,shineon,Shipping Management,Carrier list and restrictions,"What we need
+Please provide all carriers used, supported countries, factory availability and known restrictions.
+
+Why this matters
+Carrier restrictions affect ETA, delivery exceptions and customer communication.
+
+Example / expected format
+DHL: US/EU, no PO boxes. UPS: US only. Local carrier: Canada, no weekend delivery.","DHL: US/EU, no PO boxes. UPS: US only. Local carrier: Canada, no weekend delivery.",Attach supporting document or sample if available.,Waiting Supplier
+b9f6edb9-09a6-476f-ae68-40c5afe3bf81,jondo,Tracking & Shipment Visibility,Live tracking data access,"What we need
+Please explain how we can access live shipment tracking data for every shipment: tracking number, carrier, method, status and ETA. API, feed or dashboard is preferred.
+
+Why this matters
+Tracking visibility is critical for proactive customer service and delivery-risk management.
+
+Example / expected format
+API endpoint or daily feed with order ID, tracking number, carrier, status, last scan, ETA and delivery exception.","API endpoint or daily feed with order ID, tracking number, carrier, status, last scan, ETA and delivery exception.",Attach supporting document or sample if available.,Waiting Supplier
+e0a0eddc-d526-40fb-9fb9-093e35e4d32e,shineon,Tracking & Shipment Visibility,Live tracking data access,"What we need
+Please explain how we can access live shipment tracking data for every shipment: tracking number, carrier, method, status and ETA. API, feed or dashboard is preferred.
+
+Why this matters
+Tracking visibility is critical for proactive customer service and delivery-risk management.
+
+Example / expected format
+API endpoint or daily feed with order ID, tracking number, carrier, status, last scan, ETA and delivery exception.","API endpoint or daily feed with order ID, tracking number, carrier, status, last scan, ETA and delivery exception.",Attach supporting document or sample if available.,Waiting Supplier
+a4cac96a-b471-47a3-966e-aa5783e19df9,jondo,Tracking & Shipment Visibility,Shipping incident alerts,"What we need
+Please confirm how you will proactively alert us of shipping incidents that may put ETA at risk: weather, carrier delay, strike, hub backlog, customs issue or depot delay.
+
+Why this matters
+We need early warnings before customers contact us.
+
+Example / expected format
+Incident alert sent by email within 2 hours: affected orders, carrier, reason, expected impact, recovery plan.","Incident alert sent by email within 2 hours: affected orders, carrier, reason, expected impact, recovery plan.",Attach supporting document or sample if available.,Waiting Supplier
+ef11f7e7-ea51-49f7-ad5b-8aa986e3a4bc,shineon,Tracking & Shipment Visibility,Shipping incident alerts,"What we need
+Please confirm how you will proactively alert us of shipping incidents that may put ETA at risk: weather, carrier delay, strike, hub backlog, customs issue or depot delay.
+
+Why this matters
+We need early warnings before customers contact us.
+
+Example / expected format
+Incident alert sent by email within 2 hours: affected orders, carrier, reason, expected impact, recovery plan.","Incident alert sent by email within 2 hours: affected orders, carrier, reason, expected impact, recovery plan.",Attach supporting document or sample if available.,Waiting Supplier
+344185df-a6da-404f-b68a-14d29701efbe,jondo,Tracking & Shipment Visibility,Delivery exceptions process,"What we need
+Please provide the process for impossible delivery, wrong address, return to sender, lost package, business closed, customer unavailable and other exceptions.
+
+Why this matters
+Delivery exceptions need clear ownership and action to avoid unresolved customer cases.
+
+Example / expected format
+Exception detected → affected order list sent → action required from customer/Tenengroup → supplier/carrier next action confirmed.",Exception detected → affected order list sent → action required from customer/Tenengroup → supplier/carrier next action confirmed.,Attach supporting document or sample if available.,Waiting Supplier
+cabc788b-6293-4135-89ad-2eba81d4d356,shineon,Tracking & Shipment Visibility,Delivery exceptions process,"What we need
+Please provide the process for impossible delivery, wrong address, return to sender, lost package, business closed, customer unavailable and other exceptions.
+
+Why this matters
+Delivery exceptions need clear ownership and action to avoid unresolved customer cases.
+
+Example / expected format
+Exception detected → affected order list sent → action required from customer/Tenengroup → supplier/carrier next action confirmed.",Exception detected → affected order list sent → action required from customer/Tenengroup → supplier/carrier next action confirmed.,Attach supporting document or sample if available.,Waiting Supplier
+3a7132ef-a483-4f7a-a7cd-aa55c9a82a1c,jondo,Tracking & Shipment Visibility,ETA miss and shipping compensation process,"What we need
+Please define the compensation process when an order is not delivered within ETA and the delay is not caused by the customer.
+
+Why this matters
+When delivery promises are missed, we need clear compensation rules and invoice handling.
+
+Example / expected format
+Delivered after ETA due to carrier issue → shipping fee credited/refunded → carrier claim opened where applicable.",Delivered after ETA due to carrier issue → shipping fee credited/refunded → carrier claim opened where applicable.,Attach supporting document or sample if available.,Waiting Supplier
+93a0cf59-0c3c-4b50-9998-7ec9d48dd6a4,shineon,Tracking & Shipment Visibility,ETA miss and shipping compensation process,"What we need
+Please define the compensation process when an order is not delivered within ETA and the delay is not caused by the customer.
+
+Why this matters
+When delivery promises are missed, we need clear compensation rules and invoice handling.
+
+Example / expected format
+Delivered after ETA due to carrier issue → shipping fee credited/refunded → carrier claim opened where applicable.",Delivered after ETA due to carrier issue → shipping fee credited/refunded → carrier claim opened where applicable.,Attach supporting document or sample if available.,Waiting Supplier
+5377cb71-5119-4fcd-85e7-d283ca3f91d6,jondo,"Returns, Refunds & Warranty",Return eligibility rules,"What we need
+Please confirm return eligibility rules for personalized and non-personalized products, aligned with the relevant brand policy.
+
+Why this matters
+Supplier rules must match the customer-facing policy to avoid disputes.
+
+Example / expected format
+Personalized: exchange/store credit only unless defective. Non-personalized: return accepted within agreed timeframe if unworn/unused.",Personalized: exchange/store credit only unless defective. Non-personalized: return accepted within agreed timeframe if unworn/unused.,Attach supporting document or sample if available.,Waiting Supplier
+3577af93-9065-4388-96b9-3d4cabf20107,shineon,"Returns, Refunds & Warranty",Return eligibility rules,"What we need
+Please confirm return eligibility rules for personalized and non-personalized products, aligned with the relevant brand policy.
+
+Why this matters
+Supplier rules must match the customer-facing policy to avoid disputes.
+
+Example / expected format
+Personalized: exchange/store credit only unless defective. Non-personalized: return accepted within agreed timeframe if unworn/unused.",Personalized: exchange/store credit only unless defective. Non-personalized: return accepted within agreed timeframe if unworn/unused.,Attach supporting document or sample if available.,Waiting Supplier
+535f03e6-5bf7-4e37-92a3-91056712336c,jondo,"Returns, Refunds & Warranty",Damaged item claim process,"What we need
+Please provide the damaged/defective item claim process: required evidence, timeframe, approval flow, reorder/refund eligibility and supplier responsibility.
+
+Why this matters
+Damaged claims must be handled quickly and consistently.
+
+Example / expected format
+Required: order ID, photos of item on all sides, photos of outer packaging and shipping label. Review within 48 hours.","Required: order ID, photos of item on all sides, photos of outer packaging and shipping label. Review within 48 hours.",Attach supporting document or sample if available.,Waiting Supplier
+7214b934-1da9-4657-bf9a-b0f4b2184649,shineon,"Returns, Refunds & Warranty",Damaged item claim process,"What we need
+Please provide the damaged/defective item claim process: required evidence, timeframe, approval flow, reorder/refund eligibility and supplier responsibility.
+
+Why this matters
+Damaged claims must be handled quickly and consistently.
+
+Example / expected format
+Required: order ID, photos of item on all sides, photos of outer packaging and shipping label. Review within 48 hours.","Required: order ID, photos of item on all sides, photos of outer packaging and shipping label. Review within 48 hours.",Attach supporting document or sample if available.,Waiting Supplier
+2db60e30-2ad2-4029-9542-b55c8b19cd18,jondo,"Returns, Refunds & Warranty",Wrong item or missing item process,"What we need
+Please provide the process for wrong item, missing item or production mistake: evidence required, replacement timing, refund/reorder rule and supplier responsibility.
+
+Why this matters
+Customers expect fast correction when the wrong or incomplete order is received.
+
+Example / expected format
+Customer sends order ID + photo of item received → supplier confirms mistake → replacement shipped with priority method.",Customer sends order ID + photo of item received → supplier confirms mistake → replacement shipped with priority method.,Attach supporting document or sample if available.,Waiting Supplier
+395900e5-ecb0-4524-a09d-42729da66d50,shineon,"Returns, Refunds & Warranty",Wrong item or missing item process,"What we need
+Please provide the process for wrong item, missing item or production mistake: evidence required, replacement timing, refund/reorder rule and supplier responsibility.
+
+Why this matters
+Customers expect fast correction when the wrong or incomplete order is received.
+
+Example / expected format
+Customer sends order ID + photo of item received → supplier confirms mistake → replacement shipped with priority method.",Customer sends order ID + photo of item received → supplier confirms mistake → replacement shipped with priority method.,Attach supporting document or sample if available.,Waiting Supplier
+8f2f2c11-e988-42af-bf5e-c1a311e5d973,jondo,"Returns, Refunds & Warranty","Refund, reorder and store credit process","What we need
+Please define refund, reorder, exchange and store credit process, including timelines and who pays in each scenario.
+
+Why this matters
+Finance and customer service need clear rules to avoid inconsistent decisions.
+
+Example / expected format
+Defective item: free reorder or full refund. Customer preference issue on personalized item: store credit only. Processing time: X days.",Defective item: free reorder or full refund. Customer preference issue on personalized item: store credit only. Processing time: X days.,Attach supporting document or sample if available.,Waiting Supplier
+315e419d-36ce-4b3f-910a-1245377ce504,shineon,"Returns, Refunds & Warranty","Refund, reorder and store credit process","What we need
+Please define refund, reorder, exchange and store credit process, including timelines and who pays in each scenario.
+
+Why this matters
+Finance and customer service need clear rules to avoid inconsistent decisions.
+
+Example / expected format
+Defective item: free reorder or full refund. Customer preference issue on personalized item: store credit only. Processing time: X days.",Defective item: free reorder or full refund. Customer preference issue on personalized item: store credit only. Processing time: X days.,Attach supporting document or sample if available.,Waiting Supplier
+4371aba7-274e-4e52-ad17-7583237fa61b,jondo,"Order Changes, Cancellations & Customer Requests",Cancellation window,"What we need
+Please confirm the cancellation window after order placement and the exact cutoff after which cancellation is no longer possible.
+
+Why this matters
+Customer service needs a clear answer when customers request cancellation.
+
+Example / expected format
+Cancellation allowed within 2 hours after order placement and only before shipment/production lock.",Cancellation allowed within 2 hours after order placement and only before shipment/production lock.,Attach supporting document or sample if available.,Waiting Supplier
+1c73d12f-e637-4c52-a7fb-158a3e56baf8,shineon,"Order Changes, Cancellations & Customer Requests",Cancellation window,"What we need
+Please confirm the cancellation window after order placement and the exact cutoff after which cancellation is no longer possible.
+
+Why this matters
+Customer service needs a clear answer when customers request cancellation.
+
+Example / expected format
+Cancellation allowed within 2 hours after order placement and only before shipment/production lock.",Cancellation allowed within 2 hours after order placement and only before shipment/production lock.,Attach supporting document or sample if available.,Waiting Supplier
+5f046d25-3acb-4ed0-9b51-ce150caffa64,jondo,"Order Changes, Cancellations & Customer Requests",Address change window,"What we need
+Please confirm the address change window and the process to submit an address change.
+
+Why this matters
+Address errors create failed deliveries, returns and customer dissatisfaction.
+
+Example / expected format
+Address change allowed within 12 hours. Required fields: street, apartment, city, country, postcode. Submit via email/API.","Address change allowed within 12 hours. Required fields: street, apartment, city, country, postcode. Submit via email/API.",Attach supporting document or sample if available.,Waiting Supplier
+05cc48d1-fa30-43e4-8d2b-822f4cb36e6b,shineon,"Order Changes, Cancellations & Customer Requests",Address change window,"What we need
+Please confirm the address change window and the process to submit an address change.
+
+Why this matters
+Address errors create failed deliveries, returns and customer dissatisfaction.
+
+Example / expected format
+Address change allowed within 12 hours. Required fields: street, apartment, city, country, postcode. Submit via email/API.","Address change allowed within 12 hours. Required fields: street, apartment, city, country, postcode. Submit via email/API.",Attach supporting document or sample if available.,Waiting Supplier
+9a80a417-e67b-406d-949d-835308f07bba,jondo,"Order Changes, Cancellations & Customer Requests",Shipping method upgrade process,"What we need
+Please confirm when and how shipping method upgrades can be requested, including cutoff time, cost and operational limitations.
+
+Why this matters
+Shipping upgrades are an important recovery tool for late orders and event deadlines.
+
+Example / expected format
+Upgrade request before shipping label creation. Cost difference charged unless upgrade is due to supplier delay.",Upgrade request before shipping label creation. Cost difference charged unless upgrade is due to supplier delay.,Attach supporting document or sample if available.,Waiting Supplier
+bc4d3889-5c19-43f5-86f3-fe8787e653e2,shineon,"Order Changes, Cancellations & Customer Requests",Shipping method upgrade process,"What we need
+Please confirm when and how shipping method upgrades can be requested, including cutoff time, cost and operational limitations.
+
+Why this matters
+Shipping upgrades are an important recovery tool for late orders and event deadlines.
+
+Example / expected format
+Upgrade request before shipping label creation. Cost difference charged unless upgrade is due to supplier delay.",Upgrade request before shipping label creation. Cost difference charged unless upgrade is due to supplier delay.,Attach supporting document or sample if available.,Waiting Supplier
+d0fc777c-6342-4a3c-b458-043f408e66fd,jondo,"Order Changes, Cancellations & Customer Requests",Production cutoff rules,"What we need
+Please provide production cutoff rules for cancellation, address change, shipping upgrade and product modification.
+
+Why this matters
+We need to know exactly when an order becomes locked and cannot be changed.
+
+Example / expected format
+Order placed 10:00 → cancellation cutoff 12:00 → address cutoff 22:00 → production locked after artwork validation.",Order placed 10:00 → cancellation cutoff 12:00 → address cutoff 22:00 → production locked after artwork validation.,Attach supporting document or sample if available.,Waiting Supplier
+8bbbb253-1a85-40c0-bf1e-2a89cb146fcf,shineon,"Order Changes, Cancellations & Customer Requests",Production cutoff rules,"What we need
+Please provide production cutoff rules for cancellation, address change, shipping upgrade and product modification.
+
+Why this matters
+We need to know exactly when an order becomes locked and cannot be changed.
+
+Example / expected format
+Order placed 10:00 → cancellation cutoff 12:00 → address cutoff 22:00 → production locked after artwork validation.",Order placed 10:00 → cancellation cutoff 12:00 → address cutoff 22:00 → production locked after artwork validation.,Attach supporting document or sample if available.,Waiting Supplier
+924acdb0-947c-47fd-9050-870f7da23cd0,jondo,Customer Service,Supplier support channels,"What we need
+Please provide the official support channels for daily supplier communication and operational issues.
+
+Why this matters
+We are your customer and need a clear support process.
+
+Example / expected format
+Daily requests: email address. Urgent issues: WhatsApp/Slack. Technical issues: ticket portal. Finance: dedicated email.",Daily requests: email address. Urgent issues: WhatsApp/Slack. Technical issues: ticket portal. Finance: dedicated email.,Attach supporting document or sample if available.,Waiting Supplier
+3386e63a-497a-42e8-bee8-138214f0f8b5,shineon,Customer Service,Supplier support channels,"What we need
+Please provide the official support channels for daily supplier communication and operational issues.
+
+Why this matters
+We are your customer and need a clear support process.
+
+Example / expected format
+Daily requests: email address. Urgent issues: WhatsApp/Slack. Technical issues: ticket portal. Finance: dedicated email.",Daily requests: email address. Urgent issues: WhatsApp/Slack. Technical issues: ticket portal. Finance: dedicated email.,Attach supporting document or sample if available.,Waiting Supplier
+6019e808-0751-4737-9ac8-2d503611041c,jondo,Customer Service,Supplier support SLA,"What we need
+Please provide response SLA for standard requests, urgent production issues, shipping incidents, technical issues and peak season.
+
+Why this matters
+Response time must match customer-impact severity.
+
+Example / expected format
+Standard: 24h. Urgent production/shipping: 2h. Peak season critical incident: 1h. Technical outage: 1h.",Standard: 24h. Urgent production/shipping: 2h. Peak season critical incident: 1h. Technical outage: 1h.,Attach supporting document or sample if available.,Waiting Supplier
+9dcf27bf-c118-41e7-ab58-646c1eb02ffd,shineon,Customer Service,Supplier support SLA,"What we need
+Please provide response SLA for standard requests, urgent production issues, shipping incidents, technical issues and peak season.
+
+Why this matters
+Response time must match customer-impact severity.
+
+Example / expected format
+Standard: 24h. Urgent production/shipping: 2h. Peak season critical incident: 1h. Technical outage: 1h.",Standard: 24h. Urgent production/shipping: 2h. Peak season critical incident: 1h. Technical outage: 1h.,Attach supporting document or sample if available.,Waiting Supplier
+38b580f1-50cb-43c7-944c-9bd6f5b08151,jondo,Customer Service,Escalation process,"What we need
+Please provide escalation levels, contacts, timing and what qualifies as urgent.
+
+Why this matters
+Clear escalation prevents unresolved operational issues.
+
+Example / expected format
+Level 1 after SLA breach. Level 2 after 4 hours unresolved. Level 3 executive escalation after 24 hours or critical event risk.",Level 1 after SLA breach. Level 2 after 4 hours unresolved. Level 3 executive escalation after 24 hours or critical event risk.,Attach supporting document or sample if available.,Waiting Supplier
+45fe2631-0c88-4871-8ff6-d5fef212fca0,shineon,Customer Service,Escalation process,"What we need
+Please provide escalation levels, contacts, timing and what qualifies as urgent.
+
+Why this matters
+Clear escalation prevents unresolved operational issues.
+
+Example / expected format
+Level 1 after SLA breach. Level 2 after 4 hours unresolved. Level 3 executive escalation after 24 hours or critical event risk.",Level 1 after SLA breach. Level 2 after 4 hours unresolved. Level 3 executive escalation after 24 hours or critical event risk.,Attach supporting document or sample if available.,Waiting Supplier
+20c1dfd2-1410-41da-a0e2-ecf7aab60366,jondo,Service Level Agreements,Production SLA,"What we need
+Please confirm production SLA and how breaches are tracked, reported and compensated.
+
+Why this matters
+Production SLA is the baseline for late supplier monitoring.
+
+Example / expected format
+Production SLA: 2 business days. Breach report sent daily. Breach recovery: upgraded shipping at supplier cost.",Production SLA: 2 business days. Breach report sent daily. Breach recovery: upgraded shipping at supplier cost.,Attach supporting document or sample if available.,Waiting Supplier
+e90eba2b-160e-4458-86c5-1e017c62f279,shineon,Service Level Agreements,Production SLA,"What we need
+Please confirm production SLA and how breaches are tracked, reported and compensated.
+
+Why this matters
+Production SLA is the baseline for late supplier monitoring.
+
+Example / expected format
+Production SLA: 2 business days. Breach report sent daily. Breach recovery: upgraded shipping at supplier cost.",Production SLA: 2 business days. Breach report sent daily. Breach recovery: upgraded shipping at supplier cost.,Attach supporting document or sample if available.,Waiting Supplier
+4ff9bec5-ce8a-46dd-a662-a9fbbb4c0c67,jondo,Service Level Agreements,Shipping SLA,"What we need
+Please confirm shipping SLA by method and country, including ETA calculation and carrier responsibility.
+
+Why this matters
+Shipping SLA determines customer promise and compensation rules.
+
+Example / expected format
+Standard US: 5-7 business days from ship date. Express US: 1-3 business days. ETA excludes customer address issues.",Standard US: 5-7 business days from ship date. Express US: 1-3 business days. ETA excludes customer address issues.,Attach supporting document or sample if available.,Waiting Supplier
+8cf47002-8054-4ba5-8253-0fd27c4d67be,shineon,Service Level Agreements,Shipping SLA,"What we need
+Please confirm shipping SLA by method and country, including ETA calculation and carrier responsibility.
+
+Why this matters
+Shipping SLA determines customer promise and compensation rules.
+
+Example / expected format
+Standard US: 5-7 business days from ship date. Express US: 1-3 business days. ETA excludes customer address issues.",Standard US: 5-7 business days from ship date. Express US: 1-3 business days. ETA excludes customer address issues.,Attach supporting document or sample if available.,Waiting Supplier
+e1c54f40-c0e5-41bc-927b-2646a25a0ef3,jondo,Service Level Agreements,Support and escalation SLA,"What we need
+Please confirm support and escalation SLA for daily operations and urgent incidents.
+
+Why this matters
+Operational support must be measurable and consistent.
+
+Example / expected format
+Urgent incident: initial response within 2 hours, update every 4 hours until resolved.","Urgent incident: initial response within 2 hours, update every 4 hours until resolved.",Attach supporting document or sample if available.,Waiting Supplier
+db77c265-1b1d-40f4-98e5-bde5c1c187fa,shineon,Service Level Agreements,Support and escalation SLA,"What we need
+Please confirm support and escalation SLA for daily operations and urgent incidents.
+
+Why this matters
+Operational support must be measurable and consistent.
+
+Example / expected format
+Urgent incident: initial response within 2 hours, update every 4 hours until resolved.","Urgent incident: initial response within 2 hours, update every 4 hours until resolved.",Attach supporting document or sample if available.,Waiting Supplier
+6ae5c789-6d89-4371-951f-00ab099c1b22,jondo,Service Level Agreements,SLA breach compensation,"What we need
+Please define compensation rules when SLA is breached: shipping upgrade, shipping refund, free order, credit note or other agreed compensation.
+
+Why this matters
+When commitments are missed, compensation must be automatic and invoice-ready.
+
+Example / expected format
+Production late 2+ days: express upgrade. Missed final event cutoff: free order + urgent method. ETA miss: shipping credit.",Production late 2+ days: express upgrade. Missed final event cutoff: free order + urgent method. ETA miss: shipping credit.,Attach supporting document or sample if available.,Waiting Supplier
+eb47c7ce-2396-4a79-bc08-6d9dd76be738,shineon,Service Level Agreements,SLA breach compensation,"What we need
+Please define compensation rules when SLA is breached: shipping upgrade, shipping refund, free order, credit note or other agreed compensation.
+
+Why this matters
+When commitments are missed, compensation must be automatic and invoice-ready.
+
+Example / expected format
+Production late 2+ days: express upgrade. Missed final event cutoff: free order + urgent method. ETA miss: shipping credit.",Production late 2+ days: express upgrade. Missed final event cutoff: free order + urgent method. ETA miss: shipping credit.,Attach supporting document or sample if available.,Waiting Supplier
+11af0aa7-e93d-4ffa-ac65-ff8c6747071d,jondo,Integrations & Technology,API documentation,"What we need
+Please provide available APIs, documentation, endpoints, environments and limitations.
+
+Why this matters
+APIs reduce manual work and improve tracking, reporting and order visibility.
+
+Example / expected format
+Order API, product API, tracking API, authentication, rate limits, sample request/response, error codes.","Order API, product API, tracking API, authentication, rate limits, sample request/response, error codes.",Attach supporting document or sample if available.,Waiting Supplier
+020789ba-ea85-432a-843a-3ca47a7aa93a,shineon,Integrations & Technology,API documentation,"What we need
+Please provide available APIs, documentation, endpoints, environments and limitations.
+
+Why this matters
+APIs reduce manual work and improve tracking, reporting and order visibility.
+
+Example / expected format
+Order API, product API, tracking API, authentication, rate limits, sample request/response, error codes.","Order API, product API, tracking API, authentication, rate limits, sample request/response, error codes.",Attach supporting document or sample if available.,Waiting Supplier
+facd5f62-1b26-4368-97e4-a09fea32245e,jondo,Integrations & Technology,Webhook support,"What we need
+Please confirm webhook support for order status, production status, tracking, cancellation and exceptions.
+
+Why this matters
+Webhooks allow us to react in real time to changes and customer-impacting issues.
+
+Example / expected format
+Webhook events: order_received, in_production, shipped, tracking_updated, delivery_exception, cancelled.","Webhook events: order_received, in_production, shipped, tracking_updated, delivery_exception, cancelled.",Attach supporting document or sample if available.,Waiting Supplier
+d04e2e2f-d806-46a9-9ee1-fc4ebc894bdb,shineon,Integrations & Technology,Webhook support,"What we need
+Please confirm webhook support for order status, production status, tracking, cancellation and exceptions.
+
+Why this matters
+Webhooks allow us to react in real time to changes and customer-impacting issues.
+
+Example / expected format
+Webhook events: order_received, in_production, shipped, tracking_updated, delivery_exception, cancelled.","Webhook events: order_received, in_production, shipped, tracking_updated, delivery_exception, cancelled.",Attach supporting document or sample if available.,Waiting Supplier
+cf052ef5-16d5-423a-9757-dc101cead8c5,jondo,Integrations & Technology,Authentication and sandbox access,"What we need
+Please provide authentication method, sandbox access and technical requirements.
+
+Why this matters
+We need a secure testing environment before launch.
+
+Example / expected format
+OAuth/API key, sandbox URL, test credentials, IP restrictions, rate limits and support contact.","OAuth/API key, sandbox URL, test credentials, IP restrictions, rate limits and support contact.",Attach supporting document or sample if available.,Waiting Supplier
+1ad565df-a459-4f22-95ad-4d17c1ffe2f7,shineon,Integrations & Technology,Authentication and sandbox access,"What we need
+Please provide authentication method, sandbox access and technical requirements.
+
+Why this matters
+We need a secure testing environment before launch.
+
+Example / expected format
+OAuth/API key, sandbox URL, test credentials, IP restrictions, rate limits and support contact.","OAuth/API key, sandbox URL, test credentials, IP restrictions, rate limits and support contact.",Attach supporting document or sample if available.,Waiting Supplier
+0d8436b0-d654-400f-b4df-6270627d06da,jondo,Integrations & Technology,Technical contacts,"What we need
+Please provide technical owner, backup contact and escalation path.
+
+Why this matters
+Technical issues need a clear owner to avoid launch or integration delays.
+
+Example / expected format
+Primary tech contact, backup contact, escalation manager, working hours, emergency contact.","Primary tech contact, backup contact, escalation manager, working hours, emergency contact.",Attach supporting document or sample if available.,Waiting Supplier
+59ab9dbb-cac0-4306-bf82-89170fd097ab,shineon,Integrations & Technology,Technical contacts,"What we need
+Please provide technical owner, backup contact and escalation path.
+
+Why this matters
+Technical issues need a clear owner to avoid launch or integration delays.
+
+Example / expected format
+Primary tech contact, backup contact, escalation manager, working hours, emergency contact.","Primary tech contact, backup contact, escalation manager, working hours, emergency contact.",Attach supporting document or sample if available.,Waiting Supplier
+3bc5b1bf-c72b-4b9d-b898-d35ee241f21b,jondo,Reporting & Business Intelligence,Available operational reports,"What we need
+Please list available reports for production, late orders, shipped orders, tracking, delivery performance, returns, defects, compensation and finance.
+
+Why this matters
+Reporting is required to monitor daily operations and supplier performance.
+
+Example / expected format
+Reports available: daily late order report, shipped order report, tracking exceptions, defects, compensation, invoice reconciliation.","Reports available: daily late order report, shipped order report, tracking exceptions, defects, compensation, invoice reconciliation.",Attach supporting document or sample if available.,Waiting Supplier
+d9bacdff-1683-4033-8ffd-2a16916b8c41,shineon,Reporting & Business Intelligence,Available operational reports,"What we need
+Please list available reports for production, late orders, shipped orders, tracking, delivery performance, returns, defects, compensation and finance.
+
+Why this matters
+Reporting is required to monitor daily operations and supplier performance.
+
+Example / expected format
+Reports available: daily late order report, shipped order report, tracking exceptions, defects, compensation, invoice reconciliation.","Reports available: daily late order report, shipped order report, tracking exceptions, defects, compensation, invoice reconciliation.",Attach supporting document or sample if available.,Waiting Supplier
+eac68004-5129-4438-94b1-f798ad7b9c48,jondo,Reporting & Business Intelligence,Daily reporting automation,"What we need
+Please confirm which reports can be automated daily and how they will be delivered. Late orders and orders at risk are priority.
+
+Why this matters
+Manual reporting creates gaps. Daily automation is required for operational control.
+
+Example / expected format
+Daily email at 09:00 with CSV attachment, or dashboard access with export option.","Daily email at 09:00 with CSV attachment, or dashboard access with export option.",Attach supporting document or sample if available.,Waiting Supplier
+3ad0c844-b230-44ad-995b-371c2189e4cb,shineon,Reporting & Business Intelligence,Daily reporting automation,"What we need
+Please confirm which reports can be automated daily and how they will be delivered. Late orders and orders at risk are priority.
+
+Why this matters
+Manual reporting creates gaps. Daily automation is required for operational control.
+
+Example / expected format
+Daily email at 09:00 with CSV attachment, or dashboard access with export option.","Daily email at 09:00 with CSV attachment, or dashboard access with export option.",Attach supporting document or sample if available.,Waiting Supplier
+2f5aa4c9-a152-44bb-9c10-9cec165684d4,jondo,Reporting & Business Intelligence,KPI definitions and export format,"What we need
+Please define KPI calculations and export format for production SLA, late supplier, tracking, delivery ETA, returns, defects and compensation.
+
+Why this matters
+Both teams must use the same KPI definitions to avoid disputes.
+
+Example / expected format
+Late supplier % = orders shipped after SLA / total shipped orders. Export: CSV with order-level detail.",Late supplier % = orders shipped after SLA / total shipped orders. Export: CSV with order-level detail.,Attach supporting document or sample if available.,Waiting Supplier
+8ce2c3fb-9417-451a-8400-716dbb2b083f,shineon,Reporting & Business Intelligence,KPI definitions and export format,"What we need
+Please define KPI calculations and export format for production SLA, late supplier, tracking, delivery ETA, returns, defects and compensation.
+
+Why this matters
+Both teams must use the same KPI definitions to avoid disputes.
+
+Example / expected format
+Late supplier % = orders shipped after SLA / total shipped orders. Export: CSV with order-level detail.",Late supplier % = orders shipped after SLA / total shipped orders. Export: CSV with order-level detail.,Attach supporting document or sample if available.,Waiting Supplier
+d95a8aaf-217e-40dc-bf82-5c487a5d1d78,jondo,Finance & Billing,Invoice consolidation process,"What we need
+Please explain how invoices are consolidated and linked to orders, including product cost, shipping, credits, compensation and specific agreements.
+
+Why this matters
+Finance needs order-level reconciliation and visibility on compensation.
+
+Example / expected format
+Invoice line includes order ID, SKU, product cost, shipping cost, discount, credit note reference and compensation reason.","Invoice line includes order ID, SKU, product cost, shipping cost, discount, credit note reference and compensation reason.",Attach supporting document or sample if available.,Waiting Supplier
+912d1974-ba90-44ac-8ee6-882593ccf1c2,shineon,Finance & Billing,Invoice consolidation process,"What we need
+Please explain how invoices are consolidated and linked to orders, including product cost, shipping, credits, compensation and specific agreements.
+
+Why this matters
+Finance needs order-level reconciliation and visibility on compensation.
+
+Example / expected format
+Invoice line includes order ID, SKU, product cost, shipping cost, discount, credit note reference and compensation reason.","Invoice line includes order ID, SKU, product cost, shipping cost, discount, credit note reference and compensation reason.",Attach supporting document or sample if available.,Waiting Supplier
+63504a34-3464-439a-96fc-63cc3d93d9d5,jondo,Finance & Billing,Compensation and credit note process,"What we need
+Please explain how compensation and credit notes are created, approved and reconciled with invoices.
+
+Why this matters
+Compensation must be traceable and not managed manually outside finance records.
+
+Example / expected format
+SLA breach approved → credit note created monthly → credit note linked to order IDs → deducted from next invoice.",SLA breach approved → credit note created monthly → credit note linked to order IDs → deducted from next invoice.,Attach supporting document or sample if available.,Waiting Supplier
+84b4b00e-6602-4482-b2d4-f98f8a51d969,shineon,Finance & Billing,Compensation and credit note process,"What we need
+Please explain how compensation and credit notes are created, approved and reconciled with invoices.
+
+Why this matters
+Compensation must be traceable and not managed manually outside finance records.
+
+Example / expected format
+SLA breach approved → credit note created monthly → credit note linked to order IDs → deducted from next invoice.",SLA breach approved → credit note created monthly → credit note linked to order IDs → deducted from next invoice.,Attach supporting document or sample if available.,Waiting Supplier
+01fac371-1a11-4e13-abe4-13793b028d71,jondo,Finance & Billing,Payment terms and finance contacts,"What we need
+Please provide payment terms, finance contacts and billing calendar.
+
+Why this matters
+Clear finance ownership avoids payment and reconciliation delays.
+
+Example / expected format
+Payment terms: Net 30. Invoice sent weekly/monthly. Finance contact: name/email. Dispute window: X days.",Payment terms: Net 30. Invoice sent weekly/monthly. Finance contact: name/email. Dispute window: X days.,Attach supporting document or sample if available.,Waiting Supplier
+c7acaa59-dac3-4658-b1aa-584aa8ad090b,shineon,Finance & Billing,Payment terms and finance contacts,"What we need
+Please provide payment terms, finance contacts and billing calendar.
+
+Why this matters
+Clear finance ownership avoids payment and reconciliation delays.
+
+Example / expected format
+Payment terms: Net 30. Invoice sent weekly/monthly. Finance contact: name/email. Dispute window: X days.",Payment terms: Net 30. Invoice sent weekly/monthly. Finance contact: name/email. Dispute window: X days.,Attach supporting document or sample if available.,Waiting Supplier
+93187843-2729-45f9-a0fe-419fa9213186,jondo,Legal & Compliance,Contract and terms,"What we need
+Please provide contract, terms and commercial conditions applicable to the partnership.
+
+Why this matters
+Legal and commercial terms must be validated before launch.
+
+Example / expected format
+Master agreement, commercial terms, product terms, shipping terms, compensation terms.","Master agreement, commercial terms, product terms, shipping terms, compensation terms.",Attach supporting document or sample if available.,Waiting Supplier
+6c59249f-9fd8-488e-a4fd-0c036f293fd9,shineon,Legal & Compliance,Contract and terms,"What we need
+Please provide contract, terms and commercial conditions applicable to the partnership.
+
+Why this matters
+Legal and commercial terms must be validated before launch.
+
+Example / expected format
+Master agreement, commercial terms, product terms, shipping terms, compensation terms.","Master agreement, commercial terms, product terms, shipping terms, compensation terms.",Attach supporting document or sample if available.,Waiting Supplier
+32080409-498a-4c57-936c-be4df45be063,jondo,Legal & Compliance,Data processing agreement,"What we need
+Please provide DPA or privacy documentation if customer personal data is processed.
+
+Why this matters
+Customer data must be handled according to privacy and compliance requirements.
+
+Example / expected format
+DPA attached. Data processed: name, address, email, order details, personalization data. Sub-processors listed.","DPA attached. Data processed: name, address, email, order details, personalization data. Sub-processors listed.",Attach supporting document or sample if available.,Waiting Supplier
+76dd00f8-c6cf-4a3f-9cfc-baf64fe0ec26,shineon,Legal & Compliance,Data processing agreement,"What we need
+Please provide DPA or privacy documentation if customer personal data is processed.
+
+Why this matters
+Customer data must be handled according to privacy and compliance requirements.
+
+Example / expected format
+DPA attached. Data processed: name, address, email, order details, personalization data. Sub-processors listed.","DPA attached. Data processed: name, address, email, order details, personalization data. Sub-processors listed.",Attach supporting document or sample if available.,Waiting Supplier
+3bafc1e5-93cb-447c-ba64-a2b4de918106,jondo,Legal & Compliance,Compliance requirements,"What we need
+Please provide compliance requirements, certifications or restrictions that apply to products and countries served.
+
+Why this matters
+Compliance issues can block sales, shipping or marketing claims.
+
+Example / expected format
+Product safety certification, material compliance, country restrictions, labeling requirements.","Product safety certification, material compliance, country restrictions, labeling requirements.",Attach supporting document or sample if available.,Waiting Supplier
+dd8e7e71-e5f5-4905-85fd-e0c20fe522cd,shineon,Legal & Compliance,Compliance requirements,"What we need
+Please provide compliance requirements, certifications or restrictions that apply to products and countries served.
+
+Why this matters
+Compliance issues can block sales, shipping or marketing claims.
+
+Example / expected format
+Product safety certification, material compliance, country restrictions, labeling requirements.","Product safety certification, material compliance, country restrictions, labeling requirements.",Attach supporting document or sample if available.,Waiting Supplier
+60fd6776-769f-4e36-8752-865b342e6204,jondo,Security & Data Protection,Security certifications,"What we need
+Please provide security certifications or security documentation relevant to systems, data and integrations.
+
+Why this matters
+Security documentation is required for data and system trust.
+
+Example / expected format
+SOC 2/ISO certification if available, security policy, incident response process, penetration test summary.","SOC 2/ISO certification if available, security policy, incident response process, penetration test summary.",Attach supporting document or sample if available.,Waiting Supplier
+86aaa7db-489d-400c-9993-ecffcebfe7d6,shineon,Security & Data Protection,Security certifications,"What we need
+Please provide security certifications or security documentation relevant to systems, data and integrations.
+
+Why this matters
+Security documentation is required for data and system trust.
+
+Example / expected format
+SOC 2/ISO certification if available, security policy, incident response process, penetration test summary.","SOC 2/ISO certification if available, security policy, incident response process, penetration test summary.",Attach supporting document or sample if available.,Waiting Supplier
+dcede914-b1f7-4f33-b157-682265333d60,jondo,Security & Data Protection,Access control policy,"What we need
+Please explain access controls, user permissions and how access is granted, reviewed and revoked.
+
+Why this matters
+We need assurance that customer and order data is only accessible to authorized users.
+
+Example / expected format
+Role-based access, quarterly access review, immediate revocation after employee departure.","Role-based access, quarterly access review, immediate revocation after employee departure.",Attach supporting document or sample if available.,Waiting Supplier
+be41b077-a112-4cd9-9053-44fa150db10d,shineon,Security & Data Protection,Access control policy,"What we need
+Please explain access controls, user permissions and how access is granted, reviewed and revoked.
+
+Why this matters
+We need assurance that customer and order data is only accessible to authorized users.
+
+Example / expected format
+Role-based access, quarterly access review, immediate revocation after employee departure.","Role-based access, quarterly access review, immediate revocation after employee departure.",Attach supporting document or sample if available.,Waiting Supplier
+d65d4c6b-729d-47cb-bb6b-d020a3cc4afd,jondo,Security & Data Protection,Data retention policy,"What we need
+Please provide data retention, deletion and backup rules.
+
+Why this matters
+Customer data should not be stored longer than necessary and must be recoverable when needed.
+
+Example / expected format
+Order data retained X months/years. Personalization files deleted after X days. Backups retained X days.",Order data retained X months/years. Personalization files deleted after X days. Backups retained X days.,Attach supporting document or sample if available.,Waiting Supplier
+c98557f3-c128-45d9-9e9c-5a07d9bf5444,shineon,Security & Data Protection,Data retention policy,"What we need
+Please provide data retention, deletion and backup rules.
+
+Why this matters
+Customer data should not be stored longer than necessary and must be recoverable when needed.
+
+Example / expected format
+Order data retained X months/years. Personalization files deleted after X days. Backups retained X days.",Order data retained X months/years. Personalization files deleted after X days. Backups retained X days.,Attach supporting document or sample if available.,Waiting Supplier
+656b79f4-3a47-4529-9e8e-3e7c91eddd5c,jondo,Marketing & Brand Support,Marketing assets availability,"What we need
+Please provide available marketing assets, product images, videos, copy, mockups and usage rights.
+
+Why this matters
+Assets help launch products faster and maintain brand/product accuracy.
+
+Example / expected format
+Asset library link with product images, lifestyle images, videos, copy, usage rights and expiration date if applicable.","Asset library link with product images, lifestyle images, videos, copy, usage rights and expiration date if applicable.",Attach supporting document or sample if available.,Waiting Supplier
+9b7bcd36-1207-4a4e-a33e-dee184deecc1,shineon,Marketing & Brand Support,Marketing assets availability,"What we need
+Please provide available marketing assets, product images, videos, copy, mockups and usage rights.
+
+Why this matters
+Assets help launch products faster and maintain brand/product accuracy.
+
+Example / expected format
+Asset library link with product images, lifestyle images, videos, copy, usage rights and expiration date if applicable.","Asset library link with product images, lifestyle images, videos, copy, usage rights and expiration date if applicable.",Attach supporting document or sample if available.,Waiting Supplier
+c9c8b2d2-44d9-4199-9bd1-2da1498f060c,jondo,Marketing & Brand Support,Brand approval workflow,"What we need
+Please explain brand approval workflow for assets, packaging, content and campaigns.
+
+Why this matters
+Approvals prevent incorrect or non-compliant customer-facing content.
+
+Example / expected format
+Submit asset → supplier/brand review within X days → approval/rejection comments → final approved version stored.",Submit asset → supplier/brand review within X days → approval/rejection comments → final approved version stored.,Attach supporting document or sample if available.,Waiting Supplier
+d0f68652-2f64-4325-8e95-1f7ec7612c93,shineon,Marketing & Brand Support,Brand approval workflow,"What we need
+Please explain brand approval workflow for assets, packaging, content and campaigns.
+
+Why this matters
+Approvals prevent incorrect or non-compliant customer-facing content.
+
+Example / expected format
+Submit asset → supplier/brand review within X days → approval/rejection comments → final approved version stored.",Submit asset → supplier/brand review within X days → approval/rejection comments → final approved version stored.,Attach supporting document or sample if available.,Waiting Supplier
+addc9e82-5104-4b8a-ac7c-28ee321c5e85,jondo,Marketing & Brand Support,Content usage restrictions,"What we need
+Please list content usage restrictions, brand restrictions and forbidden claims.
+
+Why this matters
+We must avoid using claims or assets that are not allowed.
+
+Example / expected format
+Forbidden claims: waterproof, lifetime guarantee, medical/health claims. Approved claims listed in guideline.","Forbidden claims: waterproof, lifetime guarantee, medical/health claims. Approved claims listed in guideline.",Attach supporting document or sample if available.,Waiting Supplier
+45d2dee9-e104-43a6-a06b-bcc1a9aa46f8,shineon,Marketing & Brand Support,Content usage restrictions,"What we need
+Please list content usage restrictions, brand restrictions and forbidden claims.
+
+Why this matters
+We must avoid using claims or assets that are not allowed.
+
+Example / expected format
+Forbidden claims: waterproof, lifetime guarantee, medical/health claims. Approved claims listed in guideline.","Forbidden claims: waterproof, lifetime guarantee, medical/health claims. Approved claims listed in guideline.",Attach supporting document or sample if available.,Waiting Supplier
+f1b9ca6a-9fd9-4701-886b-ac520d47f780,jondo,Launch Readiness,Testing plan,"What we need
+Please provide the test plan before launch covering orders, personalization, cancellation, address change, shipping, tracking, returns and finance.
+
+Why this matters
+Testing reduces launch risk and validates the end-to-end workflow.
+
+Example / expected format
+Test order 1: standard order. Test order 2: personalized order. Test cancellation. Test address change. Test tracking feed. Test invoice.",Test order 1: standard order. Test order 2: personalized order. Test cancellation. Test address change. Test tracking feed. Test invoice.,Attach supporting document or sample if available.,Waiting Supplier
+35adf588-8a02-40a1-b57d-7551f5878ce0,shineon,Launch Readiness,Testing plan,"What we need
+Please provide the test plan before launch covering orders, personalization, cancellation, address change, shipping, tracking, returns and finance.
+
+Why this matters
+Testing reduces launch risk and validates the end-to-end workflow.
+
+Example / expected format
+Test order 1: standard order. Test order 2: personalized order. Test cancellation. Test address change. Test tracking feed. Test invoice.",Test order 1: standard order. Test order 2: personalized order. Test cancellation. Test address change. Test tracking feed. Test invoice.,Attach supporting document or sample if available.,Waiting Supplier
+e84e133d-5e47-489f-8bd1-8f51c6442418,jondo,Launch Readiness,Go-live checklist,"What we need
+Please provide launch checklist with owner and status for each item.
+
+Why this matters
+A shared checklist ensures nothing is missed before launch.
+
+Example / expected format
+Catalog approved, pricing approved, API tested, test orders passed, SLA approved, support contacts confirmed, finance process validated.","Catalog approved, pricing approved, API tested, test orders passed, SLA approved, support contacts confirmed, finance process validated.",Attach supporting document or sample if available.,Waiting Supplier
+5937273f-482c-4968-a38c-e7e02dace532,shineon,Launch Readiness,Go-live checklist,"What we need
+Please provide launch checklist with owner and status for each item.
+
+Why this matters
+A shared checklist ensures nothing is missed before launch.
+
+Example / expected format
+Catalog approved, pricing approved, API tested, test orders passed, SLA approved, support contacts confirmed, finance process validated.","Catalog approved, pricing approved, API tested, test orders passed, SLA approved, support contacts confirmed, finance process validated.",Attach supporting document or sample if available.,Waiting Supplier
+67bde68c-9c65-4615-b64a-44eae82d1f2d,jondo,Launch Readiness,Launch blockers and dependencies,"What we need
+Please list blockers, dependencies and risks that can delay launch.
+
+Why this matters
+Blockers need visibility and ownership before we commit to a launch date.
+
+Example / expected format
+Blocker: API credentials not ready. Owner: supplier tech. Due date: June 10. Impact: launch cannot proceed.",Blocker: API credentials not ready. Owner: supplier tech. Due date: June 10. Impact: launch cannot proceed.,Attach supporting document or sample if available.,Waiting Supplier
+ebf41a41-0d2c-4a62-9530-7dcb1ebffc14,shineon,Launch Readiness,Launch blockers and dependencies,"What we need
+Please list blockers, dependencies and risks that can delay launch.
+
+Why this matters
+Blockers need visibility and ownership before we commit to a launch date.
+
+Example / expected format
+Blocker: API credentials not ready. Owner: supplier tech. Due date: June 10. Impact: launch cannot proceed.",Blocker: API credentials not ready. Owner: supplier tech. Due date: June 10. Impact: launch cannot proceed.,Attach supporting document or sample if available.,Waiting Supplier
+0f3d103d-dc66-4549-ab86-4fba6b5689c2,jondo,Launch Readiness,Final approval criteria,"What we need
+Please confirm final go-live approval criteria for operations, tech, finance, customer service and reporting.
+
+Why this matters
+Both teams need the same definition of readiness.
+
+Example / expected format
+Go-live approved only when catalog, pricing, test orders, tracking, SLA, support and finance are validated.","Go-live approved only when catalog, pricing, test orders, tracking, SLA, support and finance are validated.",Attach supporting document or sample if available.,Waiting Supplier
+616e7ea6-2771-4692-9ce8-1021b2559737,shineon,Launch Readiness,Final approval criteria,"What we need
+Please confirm final go-live approval criteria for operations, tech, finance, customer service and reporting.
+
+Why this matters
+Both teams need the same definition of readiness.
+
+Example / expected format
+Go-live approved only when catalog, pricing, test orders, tracking, SLA, support and finance are validated.","Go-live approved only when catalog, pricing, test orders, tracking, SLA, support and finance are validated.",Attach supporting document or sample if available.,Waiting Supplier
+6c511e04-613e-490f-899f-093a64dfaeed,jondo,Post-Launch Support,Hypercare plan,"What we need
+Please provide hypercare plan after launch: duration, support coverage, escalation and daily monitoring.
+
+Why this matters
+The first days after launch require closer monitoring and faster issue resolution.
+
+Example / expected format
+Hypercare duration: 2 weeks. Daily standup: yes. Dedicated escalation contact. Daily report sent at 09:00.",Hypercare duration: 2 weeks. Daily standup: yes. Dedicated escalation contact. Daily report sent at 09:00.,Attach supporting document or sample if available.,Waiting Supplier
+666709a1-5714-4335-bf39-cfa12843a97c,shineon,Post-Launch Support,Hypercare plan,"What we need
+Please provide hypercare plan after launch: duration, support coverage, escalation and daily monitoring.
+
+Why this matters
+The first days after launch require closer monitoring and faster issue resolution.
+
+Example / expected format
+Hypercare duration: 2 weeks. Daily standup: yes. Dedicated escalation contact. Daily report sent at 09:00.",Hypercare duration: 2 weeks. Daily standup: yes. Dedicated escalation contact. Daily report sent at 09:00.,Attach supporting document or sample if available.,Waiting Supplier
+6ac290b8-41da-4c1d-90c0-6946cb0c9a4a,jondo,Post-Launch Support,Issue management process,"What we need
+Please explain issue management process: ticketing, owner, severity, SLA, follow-up and resolution confirmation.
+
+Why this matters
+Issues need consistent tracking until closure.
+
+Example / expected format
+Issue logged → severity assigned → owner assigned → SLA timer starts → updates every X hours → closure confirmed by Tenengroup.",Issue logged → severity assigned → owner assigned → SLA timer starts → updates every X hours → closure confirmed by Tenengroup.,Attach supporting document or sample if available.,Waiting Supplier
+6f312e2b-2dfc-4e1e-a7b0-563946b0156f,shineon,Post-Launch Support,Issue management process,"What we need
+Please explain issue management process: ticketing, owner, severity, SLA, follow-up and resolution confirmation.
+
+Why this matters
+Issues need consistent tracking until closure.
+
+Example / expected format
+Issue logged → severity assigned → owner assigned → SLA timer starts → updates every X hours → closure confirmed by Tenengroup.",Issue logged → severity assigned → owner assigned → SLA timer starts → updates every X hours → closure confirmed by Tenengroup.,Attach supporting document or sample if available.,Waiting Supplier
+bb6c8740-850a-42e9-88ad-1f5ccb1c659a,jondo,Post-Launch Support,Business review cadence,"What we need
+Please propose business review cadence and topics: SLA, quality, compensation, finance, incidents and improvement plan.
+
+Why this matters
+Regular reviews keep the partnership controlled after launch.
+
+Example / expected format
+Monthly business review: SLA, late orders, defects, returns, compensation, finance disputes, improvement actions.","Monthly business review: SLA, late orders, defects, returns, compensation, finance disputes, improvement actions.",Attach supporting document or sample if available.,Waiting Supplier
+c937a591-e755-45ae-8619-17b73b20f4fd,shineon,Post-Launch Support,Business review cadence,"What we need
+Please propose business review cadence and topics: SLA, quality, compensation, finance, incidents and improvement plan.
+
+Why this matters
+Regular reviews keep the partnership controlled after launch.
+
+Example / expected format
+Monthly business review: SLA, late orders, defects, returns, compensation, finance disputes, improvement actions.","Monthly business review: SLA, late orders, defects, returns, compensation, finance disputes, improvement actions.",Attach supporting document or sample if available.,Waiting Supplier
+806239c7-a5b8-425c-bc0c-4504f24f7ed6,jondo,Peak Season & Event Management,Event capacity plan,"What we need
+Please provide event capacity plan for Valentine’s Day, Mother’s Day, Father’s Day, Christmas, Black Friday and Cyber Monday, including staffing, monitoring and escalation.
+
+Why this matters
+During peak events, any production or shipping issue has a major customer impact.
+
+Example / expected format
+Peak plan: forecast volume, daily capacity, extra staff, extended hours, escalation owner, daily monitoring report.","Peak plan: forecast volume, daily capacity, extra staff, extended hours, escalation owner, daily monitoring report.",Attach supporting document or sample if available.,Waiting Supplier
+baf394c4-ca1e-4d74-a09a-2958b658c712,shineon,Peak Season & Event Management,Event capacity plan,"What we need
+Please provide event capacity plan for Valentine’s Day, Mother’s Day, Father’s Day, Christmas, Black Friday and Cyber Monday, including staffing, monitoring and escalation.
+
+Why this matters
+During peak events, any production or shipping issue has a major customer impact.
+
+Example / expected format
+Peak plan: forecast volume, daily capacity, extra staff, extended hours, escalation owner, daily monitoring report.","Peak plan: forecast volume, daily capacity, extra staff, extended hours, escalation owner, daily monitoring report.",Attach supporting document or sample if available.,Waiting Supplier
+9d265e57-5ac0-475d-b494-cc8b478db5d9,jondo,Peak Season & Event Management,Last safe shipping date matrix,"What we need
+Please provide last safe order date, production date and shipping date by country and shipping method for each event.
+
+Why this matters
+We need to know the last possible date to promise delivery on time.
+
+Example / expected format
+Country | Method | Last order date | Last production completion date | Last ship date | Expected delivery date",Country | Method | Last order date | Last production completion date | Last ship date | Expected delivery date,Attach supporting document or sample if available.,Waiting Supplier
+c81b34f3-433c-4ff2-8fce-2434d47b1b52,shineon,Peak Season & Event Management,Last safe shipping date matrix,"What we need
+Please provide last safe order date, production date and shipping date by country and shipping method for each event.
+
+Why this matters
+We need to know the last possible date to promise delivery on time.
+
+Example / expected format
+Country | Method | Last order date | Last production completion date | Last ship date | Expected delivery date",Country | Method | Last order date | Last production completion date | Last ship date | Expected delivery date,Attach supporting document or sample if available.,Waiting Supplier
+0e1f862b-c0a5-4b70-bae8-32e79188f5da,jondo,Peak Season & Event Management,Missed cutoff process,"What we need
+Please confirm the process when a supplier cutoff is missed. We expect automatic shipping upgrade until the last express cutoff. If the last express cutoff is missed, provide the affected order list immediately and propose free order + urgent method where applicable.
+
+Why this matters
+Missed event cutoffs require immediate recovery and compensation.
+
+Example / expected format
+Order misses standard cutoff → upgrade to express. Order misses express cutoff → same-day affected list + compensation proposal.",Order misses standard cutoff → upgrade to express. Order misses express cutoff → same-day affected list + compensation proposal.,Attach supporting document or sample if available.,Waiting Supplier
+2fed4dbc-1a78-40dc-a6af-9cb450c5dc00,shineon,Peak Season & Event Management,Missed cutoff process,"What we need
+Please confirm the process when a supplier cutoff is missed. We expect automatic shipping upgrade until the last express cutoff. If the last express cutoff is missed, provide the affected order list immediately and propose free order + urgent method where applicable.
+
+Why this matters
+Missed event cutoffs require immediate recovery and compensation.
+
+Example / expected format
+Order misses standard cutoff → upgrade to express. Order misses express cutoff → same-day affected list + compensation proposal.",Order misses standard cutoff → upgrade to express. Order misses express cutoff → same-day affected list + compensation proposal.,Attach supporting document or sample if available.,Waiting Supplier
+056aba13-d679-4285-ac11-3e55fc409a6c,jondo,Peak Season & Event Management,Daily orders-at-risk reporting,"What we need
+Please confirm daily morning reporting of orders at risk before event delivery deadlines, based on current tracking and production status.
+
+Why this matters
+We need to know which orders may miss event delivery before customers complain.
+
+Example / expected format
+Daily report: order ID, customer country, tracking status, ETA, risk reason, recovery action, compensation status.","Daily report: order ID, customer country, tracking status, ETA, risk reason, recovery action, compensation status.",Attach supporting document or sample if available.,Waiting Supplier
+cffb1455-330f-4f3c-9a2b-4b039dafe264,shineon,Peak Season & Event Management,Daily orders-at-risk reporting,"What we need
+Please confirm daily morning reporting of orders at risk before event delivery deadlines, based on current tracking and production status.
+
+Why this matters
+We need to know which orders may miss event delivery before customers complain.
+
+Example / expected format
+Daily report: order ID, customer country, tracking status, ETA, risk reason, recovery action, compensation status.","Daily report: order ID, customer country, tracking status, ETA, risk reason, recovery action, compensation status.",Attach supporting document or sample if available.,Waiting Supplier
+570a8901-6198-47f9-bdb8-191863f18e45,jondo,Peak Season & Event Management,Event delivery compensation process,"What we need
+Please define compensation rules for event orders delivered late or at risk, including shipping reimbursement, free order, credit note and carrier claim process.
+
+Why this matters
+Event misses are highly sensitive and compensation must be clear before peak season.
+
+Example / expected format
+If event delivery is missed due to supplier/carrier issue: shipping credited, carrier claim opened, free replacement considered depending on case.","If event delivery is missed due to supplier/carrier issue: shipping credited, carrier claim opened, free replacement considered depending on case.",Attach supporting document or sample if available.,Waiting Supplier
+3b9a4c07-6176-42d8-8519-75e04d4e926e,shineon,Peak Season & Event Management,Event delivery compensation process,"What we need
+Please define compensation rules for event orders delivered late or at risk, including shipping reimbursement, free order, credit note and carrier claim process.
+
+Why this matters
+Event misses are highly sensitive and compensation must be clear before peak season.
+
+Example / expected format
+If event delivery is missed due to supplier/carrier issue: shipping credited, carrier claim opened, free replacement considered depending on case.","If event delivery is missed due to supplier/carrier issue: shipping credited, carrier claim opened, free replacement considered depending on case.",Attach supporting document or sample if available.,Waiting Supplier

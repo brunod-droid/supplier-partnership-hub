@@ -8,6 +8,7 @@ type Props = {
   requirementId: string;
   role: 'admin' | 'internal' | 'supplier';
   initialOurNeed: string;
+  initialExampleResponse: string | null;
   initialSupplierResponse: string | null;
   initialFinalDecision: string | null;
   initialStatus: string;
@@ -24,6 +25,7 @@ export default function RequirementEditor({
   requirementId,
   role,
   initialOurNeed,
+  initialExampleResponse,
   initialSupplierResponse,
   initialFinalDecision,
   initialStatus
@@ -32,6 +34,7 @@ export default function RequirementEditor({
   const router = useRouter();
   const isSupplier = role === 'supplier';
   const [ourNeed, setOurNeed] = useState(initialOurNeed || '');
+  const [exampleResponse, setExampleResponse] = useState(initialExampleResponse || '');
   const [supplierResponse, setSupplierResponse] = useState(initialSupplierResponse || '');
   const [finalDecision, setFinalDecision] = useState(initialFinalDecision || '');
   const [status, setStatus] = useState(initialStatus || 'Waiting Supplier');
@@ -49,6 +52,7 @@ export default function RequirementEditor({
 
     if (!isSupplier) {
       payload.our_need = ourNeed;
+      payload.example_response = exampleResponse;
       payload.final_decision = finalDecision;
       payload.status = status;
     } else if (status === 'Waiting Supplier') {
@@ -77,13 +81,25 @@ export default function RequirementEditor({
         <label>
           <b>Our need</b>
           <textarea
-            rows={8}
+            rows={10}
             value={ourNeed}
             onChange={(e) => setOurNeed(e.target.value)}
             disabled={isSupplier}
             placeholder="Write Tenengroup needs / guidelines here..."
           />
           {isSupplier && <p className="small">Read-only for supplier users.</p>}
+        </label>
+
+        <label>
+          <b>Example / expected format</b>
+          <textarea
+            rows={5}
+            value={exampleResponse}
+            onChange={(e) => setExampleResponse(e.target.value)}
+            disabled={isSupplier}
+            placeholder="Add a short example to help the supplier answer correctly..."
+          />
+          {isSupplier && <p className="small">This example is here to help you structure your answer.</p>}
         </label>
 
         <label>

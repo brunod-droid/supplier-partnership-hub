@@ -61,6 +61,7 @@ export default async function RequirementPage({ params }: { params: Promise<{ re
           requirementId={requirement.id}
           role={profile.role}
           initialOurNeed={requirement.our_need}
+          initialExampleResponse={requirement.example_response}
           initialSupplierResponse={requirement.supplier_response}
           initialFinalDecision={requirement.final_decision}
           initialStatus={requirement.status}
