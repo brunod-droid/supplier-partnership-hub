@@ -59,6 +59,11 @@ export default async function RequirementPage({ params }: { params: Promise<{ re
           userId={user.id}
           role={profile.role}
           comments={comments || []}
+          ...comment,
+          profiles: Array.isArray(comment.profiles)
+           ? comment.profiles[0] || null
+           : comment.profiles
+  }))}
         />
       </div>
     </main>
