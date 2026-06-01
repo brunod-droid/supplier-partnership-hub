@@ -84,7 +84,12 @@ export default async function WorkspacePage({
   }
 
   const { data: items } = await query;
-  const requirements = (items || []) as Requirement[];
+  const requirements = (items || []).map((item: any) => ({
+  ...item,
+  categories: Array.isArray(item.categories)
+    ? item.categories[0] || null
+    : item.categories
+})) as Requirement[];
 
   const grouped = requirements.reduce((acc: Record<string, Requirement[]>, item) => {
     const key = item.categories?.name || 'Other';
