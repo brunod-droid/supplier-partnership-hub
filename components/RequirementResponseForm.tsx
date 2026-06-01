@@ -8,7 +8,9 @@ type Props = {
   requirementId: string;
   initialResponse: string | null;
   initialStatus: string;
+  initialInternalNotes?: string | null;
   canEditStatus: boolean;
+  canEditInternalNotes: boolean;
 };
 
 const statuses = [
@@ -21,10 +23,18 @@ const statuses = [
   'Blocked'
 ];
 
-export default function RequirementResponseForm({ requirementId, initialResponse, initialStatus, canEditStatus }: Props) {
+export default function RequirementResponseForm({
+  requirementId,
+  initialResponse,
+  initialStatus,
+  initialInternalNotes,
+  canEditStatus,
+  canEditInternalNotes
+}: Props) {
   const supabase = createClient();
   const router = useRouter();
   const [supplierResponse, setSupplierResponse] = useState(initialResponse || '');
+  const [internalNotes, setInternalNotes] = useState(initialInternalNotes || '');
   const [status, setStatus] = useState(initialStatus || 'Waiting Supplier');
   const [saving, setSaving] = useState(false);
   const [message, setMessage] = useState('');
@@ -32,17 +42,25 @@ export default function RequirementResponseForm({ requirementId, initialResponse
   async function save() {
     setSaving(true);
     setMessage('');
+
     const payload: any = {
       supplier_response: supplierResponse,
       status: canEditStatus ? status : 'Supplier Replied',
       updated_at: new Date().toISOString()
     };
+
+    if (canEditInternalNotes) {
+      payload.internal_notes = internalNotes;
+    }
+
     const { error } = await supabase.from('requirements').update(payload).eq('id', requirementId);
     setSaving(false);
+
     if (error) {
       setMessage(error.message);
       return;
     }
+
     setMessage('Saved.');
     router.refresh();
   }
@@ -51,8 +69,14 @@ export default function RequirementResponseForm({ requirementId, initialResponse
     <div className="grid">
       <label>
         Supplier response
-        <textarea rows={9} value={supplierResponse} onChange={e => setSupplierResponse(e.target.value)} placeholder="Write the supplier answer here..." />
+        <textarea
+          rows={9}
+          value={supplierResponse}
+          onChange={e => setSupplierResponse(e.target.value)}
+          placeholder="Write the supplier answer here..."
+        />
       </label>
+
       {canEditStatus && (
         <label>
           Status
@@ -61,7 +85,22 @@ export default function RequirementResponseForm({ requirementId, initialResponse
           </select>
         </label>
       )}
-      <button className="btn" type="button" onClick={save} disabled={saving}>{saving ? 'Saving...' : 'Save response'}</button>
+
+      {canEditInternalNotes && (
+        <label>
+          Tenengroup internal notes
+          <textarea
+            rows={5}
+            value={internalNotes}
+            onChange={e => setInternalNotes(e.target.value)}
+            placeholder="Private notes visible only to Bruno / Tenengroup..."
+          />
+        </label>
+      )}
+
+      <button className="btn" type="button" onClick={save} disabled={saving}>
+        {saving ? 'Saving...' : 'Save'}
+      </button>
       {message && <p className="small">{message}</p>}
     </div>
   );
