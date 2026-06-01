@@ -8,6 +8,7 @@ import CommentsPanel from '../../../components/CommentsPanel';
 export default async function RequirementPage({ params }: { params: Promise<{ requirementId: string }> }) {
   const { requirementId } = await params;
   const supabase = await createClient();
+
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) redirect('/login');
 
@@ -33,13 +34,24 @@ export default async function RequirementPage({ params }: { params: Promise<{ re
     .eq('requirement_id', requirementId)
     .order('created_at', { ascending: true });
 
+  const normalizedComments = (comments || []).map((comment: any) => ({
+    ...comment,
+    profiles: Array.isArray(comment.profiles)
+      ? comment.profiles[0] || null
+      : comment.profiles
+  }));
+
   return (
     <main className="container">
       <div className="header">
         <div>
-          <Link className="small" href={`/workspaces/${requirement.workspaces.id}`}>← Back to workspace</Link>
+          <Link className="small" href={`/workspaces/${requirement.workspaces.id}`}>
+            ← Back to workspace
+          </Link>
           <h1>{requirement.title}</h1>
-          <p className="small">{requirement.workspaces.name} · {requirement.categories?.name} · Role: {profile.role}</p>
+          <p className="small">
+            {requirement.workspaces.name} · {requirement.categories?.name} · Role: {profile.role}
+          </p>
         </div>
         <SignOutButton />
       </div>
@@ -58,12 +70,7 @@ export default async function RequirementPage({ params }: { params: Promise<{ re
           requirementId={requirement.id}
           userId={user.id}
           role={profile.role}
-          comments={comments || []}
-          ...comment,
-          profiles: Array.isArray(comment.profiles)
-           ? comment.profiles[0] || null
-           : comment.profiles
-  }))}
+          comments={normalizedComments}
         />
       </div>
     </main>
