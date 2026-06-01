@@ -57,40 +57,43 @@ export default function CommentsPanel({ requirementId, userId, role, comments }:
   }
 
   return (
-    <section className="card">
-      <h2>Comments</h2>
+    <section className="discussion-card">
+      <div className="section-heading compact">
+        <p className="eyebrow">Discussion</p>
+        <h2>Comments</h2>
+      </div>
 
-      <div className="grid" style={{ marginBottom: 16 }}>
-        {comments.length === 0 && <p className="small">No comments yet.</p>}
+      <div className="comment-list">
+        {comments.length === 0 && <p className="muted">No comments yet.</p>}
         {comments.map((comment) => (
-          <div key={comment.id} style={{ border: '1px solid #ececf0', borderRadius: 14, padding: 12 }}>
-            <div className="nav" style={{ justifyContent: 'space-between' }}>
+          <article key={comment.id} className="comment-card">
+            <div className="comment-meta">
               <b>{comment.profiles?.full_name || comment.profiles?.email || 'User'}</b>
-              <span className="small">{new Date(comment.created_at).toLocaleString()}</span>
+              <span>{new Date(comment.created_at).toLocaleString()}</span>
             </div>
             {comment.is_internal && <span className="badge">Internal only</span>}
-            <p style={{ whiteSpace: 'pre-wrap' }}>{comment.body}</p>
-          </div>
+            <p>{comment.body}</p>
+          </article>
         ))}
       </div>
 
       <label>
         <b>Add comment</b>
-        <textarea rows={4} value={body} onChange={(e) => setBody(e.target.value)} placeholder="Write a comment..." />
+        <textarea rows={5} value={body} onChange={(e) => setBody(e.target.value)} placeholder="Write a comment or clarification..." />
       </label>
 
       {canInternal && (
-        <label className="nav" style={{ marginTop: 10, justifyContent: 'flex-start' }}>
-          <input type="checkbox" checked={isInternal} onChange={(e) => setIsInternal(e.target.checked)} style={{ width: 'auto' }} />
-          <span className="small">Internal note only - hidden from supplier</span>
+        <label className="check-row" style={{ marginTop: 10 }}>
+          <input type="checkbox" checked={isInternal} onChange={(e) => setIsInternal(e.target.checked)} />
+          <span>Internal note only - hidden from supplier</span>
         </label>
       )}
 
-      <div className="nav" style={{ marginTop: 12 }}>
+      <div className="save-bar compact-save">
         <button className="btn" type="button" onClick={addComment} disabled={saving || !body.trim()}>
           {saving ? 'Adding...' : 'Add comment'}
         </button>
-        {message && <p className="small">{message}</p>}
+        {message && <p className="muted">{message}</p>}
       </div>
     </section>
   );
